@@ -1,22 +1,21 @@
-name: Nightly DSA Routine
+name: Daily Study Routine
 
 on:
   schedule:
-    # Trigger at 00:00 UTC? No: 8:30 PM IST (20:30 IST) is 15:00 UTC (15:00 UTC = 20:30 IST)
     - cron: '0 15 * * *'
-  workflow_dispatch: # Allows one-click manual test from GitHub Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  daily-dsa-routine:
-    name: Autonomous Java DSA Progression
+  daily-practice:
+    name: Practice Session
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout Code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -26,25 +25,23 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip'
 
-      - name: Set up Java JDK 21 (for syntax & javac validation)
+      - name: Set up Java JDK 21
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '21'
 
-      - name: Install Python Dependencies
+      - name: Install Dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Configure Git Identity
+      - name: Configure Git
         run: |
           git config user.name "sujaypaul27"
           git config user.email "sujaypaul2711@gmail.com"
 
-      - name: Execute Daily DSA Routine
+      - name: Run Practice Session
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: 'gemini-2.5-flash'

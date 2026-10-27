@@ -1,110 +1,134 @@
-# 🚀 Structured DSA Learn (Java)
+# ☕ Data Structures & Algorithms in Java
 
-Autonomous daily Data Structures & Algorithms learning journey in Java. Powered by **Google Gemini** (`google-genai` SDK) and **GitHub Actions**, this repository autonomously solves, documents, tests, and commits 4–5 structured Java DSA problems every evening.
-
----
-
-## 📅 Nightly Autonomous Routine
-
-Every day at **8:30 PM IST (15:00 UTC)**, a scheduled GitHub Actions workflow triggers automatically:
-
-1. **Scans Existing Progress:** Reads all `.java` files in [`DSAprogress/`](./DSAprogress/) and the progress tracker [`DSAprogress/progress_tracker.json`](./DSAprogress/progress_tracker.json) to eliminate duplicate problems.
-2. **Follows Curriculum Progression:** Selects the next **4 to 5 problems** in sequence from a 9-module DSA syllabus.
-3. **Generates Educational Java Code:** Uses Gemini (`gemini-2.5-flash`) via the `google-genai` SDK with strict Pydantic schemas. Each program includes:
-   - Full Javadoc header with **Problem Statement**, **Examples**, **Intuition/Approach**, and **Time & Space Complexity**.
-   - Public class `<ClassName>` matching `<ClassName>.java`.
-   - Comprehensive `public static void main(String[] args)` with 2–3 test cases and formatted console outputs.
-4. **Validates Syntax:** Compiles each file with `javac` and cleans up `.class` bytecode artifacts immediately.
-5. **Simulates Natural Evening Coding Sessions:** Assigns sorted, randomized commit timestamps between **8:30 PM and 11:55 PM IST** (`+05:30`).
-6. **Separate Commits & Pushes:** Commits and pushes each problem individually with a human-like delay between pushes, updating the GitHub contribution graph with authentic green squares.
+My personal repository of Java implementations, problem-solving notes, and complexity analyses. This repository follows a structured topic-by-topic progression from core fundamentals to advanced data structures and algorithms.
 
 ---
 
-## 📚 DSA Curriculum Roadmap
+## 📌 Repository Overview
 
-| Module | Topic | Core Focus |
-| :---: | :--- | :--- |
-| **1** | **Basic Math & Number Logic** | Digit extraction, prime tests, Armstrong numbers, GCD/LCM, palindrome numbers |
-| **2** | **Patterns & Recursion Basics** | Recursive problem solving, functional recursion, Tower of Hanoi, subsets |
-| **3** | **Arrays - Easy to Medium** | Two pointers, Kadane's algorithm, Dutch National Flag, matrix operations |
-| **4** | **Strings** | Anagrams, palindrome verification, sliding window, frequency hashing |
-| **5** | **Searching & Sorting** | Binary search variants, merge sort, quicksort, rotated sorted arrays |
-| **6** | **Linked Lists** | Cycle detection (Floyd's algorithm), reversal, merge operations |
-| **7** | **Stacks & Queues** | Monotonic stacks, next greater elements, parentheses validation |
-| **8** | **Binary Trees & BST** | Traversals, depth & diameter, balanced trees, BST lookups & deletions |
-| **9** | **Heaps, Graphs & DP** | Priority queues, BFS/DFS, Dijkstra, topological sort, 1D & 2D Dynamic Programming |
+Each solution is written as a self-contained, compilable Java class with:
+- **Problem Statement & Constraints:** Summary of what the problem requires.
+- **Example Walkthroughs:** Clear input, expected output, and step-by-step trace.
+- **Approach & Intuition:** The core thought process, data structures chosen, and reasoning.
+- **Complexity Analysis:** Theoretical time and space complexity with Big-O justifications.
+- **Working Test Cases:** A `main` method executing realistic test cases with formatted console outputs.
+
+All source files are organized inside the [`DSAprogress/`](./DSAprogress/) folder, tracked alongside a progress log in [`DSAprogress/progress_tracker.json`](./DSAprogress/progress_tracker.json).
 
 ---
 
-## 🛠️ Repository Structure
+## 🗺️ Learning Roadmap & Curriculum
+
+```text
+1. Basic Math & Number Logic
+   └── Number properties, digit extraction, GCD/LCM, prime algorithms, modular arithmetic.
+
+2. Patterns & Recursion Basics
+   └── Base cases, recursion tree visualization, functional vs parameterized recursion, backtracking.
+
+3. Arrays (Easy to Medium)
+   └── Two pointers, sliding window, prefix sums, Kadane's algorithm, Dutch National Flag, matrix traversals.
+
+4. Strings
+   └── Anagram verification, substring matching, palindrome logic, frequency counting, string compression.
+
+5. Searching & Sorting
+   └── Binary search on arrays & search space, lower/upper bounds, merge sort, quicksort.
+
+6. Linked Lists
+   └── Singly and doubly linked lists, pointer reversal, Floyd's cycle detection, list merging.
+
+7. Stacks & Queues
+   └── Monotonic stacks, next greater element, parentheses matching, queue simulation with stacks.
+
+8. Binary Trees & Binary Search Trees (BST)
+   └── Pre/In/Post/Level order traversals, tree height/diameter, balanced trees, BST validation & operations.
+
+9. Heaps, Graphs & Dynamic Programming
+   └── Priority queues, BFS/DFS traversals, Dijkstra's algorithm, topological sorting, 1D & 2D DP.
+```
+
+---
+
+## 📂 Project Structure
 
 ```text
 Sturctured-DSA-Learn/
-├── .github/
-│   └── workflows/
-│       └── nightly_dsa_routine.yml   # Daily cron (8:30 PM IST) & manual workflow_dispatch
 ├── DSAprogress/
-│   ├── progress_tracker.json         # Automated log of solved topics & timestamps
-│   └── <ClassName>.java              # Educational Java DSA source files
+│   ├── progress_tracker.json    # Summary log of completed problems and topics
+│   ├── SumOfNumbers.java        # Individual problem solutions
+│   ├── TwoSum.java
+│   └── ...
 ├── scripts/
-│   ├── daily_dsa_commit.py           # Primary autonomous routine script
-│   └── daily_dsa_agent.py            # Alias runner wrapper
-├── requirements.txt                  # Python dependencies (google-genai, pydantic)
-├── .gitignore                        # Bytecode, cache, and env ignore rules
-└── README.md                         # Documentation
+│   └── daily_dsa_commit.py      # Study session helper script
+├── requirements.txt             # Utility dependencies
+├── .gitignore                   # Ignore bytecode (*.class) and temporary files
+└── README.md                    # Study notes and curriculum guide
 ```
 
 ---
 
-## ⚙️ Configuration & Secrets
+## 📝 Solution Template
 
-### 1. GitHub Repository Secret
-The GitHub Actions workflow requires a Gemini API key:
-- Navigate to: **Settings** &rarr; **Secrets and variables** &rarr; **Actions**
-- Click **New repository secret**
-- Name: `GEMINI_API_KEY`
-- Value: `<your-google-ai-studio-api-key>`
+Every file in `DSAprogress/` adheres to a clean, educational standard:
 
-### 2. GitHub Actions Permissions
-Ensure the workflow has write access to push commits:
-- Navigate to: **Settings** &rarr; **Actions** &rarr; **General**
-- Under **Workflow permissions**, choose **"Read and write permissions"**
-- Click **Save**
+```java
+/**
+ * Problem: Two Sum
+ * Topic: Arrays - Easy to Medium
+ * 
+ * Problem Statement:
+ * Given an array of integers nums and an integer target, return indices of the two
+ * numbers such that they add up to target.
+ * 
+ * Approach (Single-pass Hash Map):
+ * - Traverse the array while maintaining a map of seen values to indices.
+ * - For each element, check if (target - num) is already in the map.
+ * - If found, return the pair of indices; otherwise, insert the current number and index.
+ * 
+ * Time Complexity: O(N) where N is array length.
+ * Space Complexity: O(N) to store elements in the hash map.
+ */
+public class TwoSum {
+    public static int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                return new int[] { map.get(complement), i };
+            }
+            map.put(nums[i], i);
+        }
+        return new int[] {};
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+        int[] result = twoSum(nums, target);
+        System.out.println("Result: " + Arrays.toString(result)); // [0, 1]
+    }
+}
+```
 
 ---
 
-## 💻 Manual & Local Execution
+## 💻 Running Locally
 
-### Install Dependencies
+### Compile any Java file:
 ```bash
-pip install -r requirements.txt
+javac DSAprogress/TwoSum.java
 ```
 
-### Dry Run (Test without committing or pushing)
+### Run the solution:
 ```bash
-python scripts/daily_dsa_commit.py --dry-run
-```
-
-### Force a Specific Count (4 or 5)
-```bash
-python scripts/daily_dsa_commit.py --count 5
-```
-
-### Run Locally with Full Commit & Push
-```bash
-export GEMINI_API_KEY="your-api-key"
-python scripts/daily_dsa_commit.py
-```
-
-*(On Windows PowerShell):*
-```powershell
-$env:GEMINI_API_KEY="your-api-key"
-python scripts/daily_dsa_commit.py
+java -cp DSAprogress TwoSum
 ```
 
 ---
 
 ## 👤 Author
 
-- **Name:** Sujay Paul ([@sujaypaul27](https://github.com/sujaypaul27))
-- **Email:** `sujaypaul2711@gmail.com`
+- **Sujay Paul**
+- GitHub: [@sujaypaul27](https://github.com/sujaypaul27)
+- Email: `sujaypaul2711@gmail.com`
