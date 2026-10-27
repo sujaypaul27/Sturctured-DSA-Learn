@@ -1,6 +1,6 @@
 {
-  "total_solved": 1,
-  "last_updated": "2026-10-27T21:01:21+05:30",
+  "total_solved": 2,
+  "last_updated": "2026-10-27T21:37:43+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -10,6 +10,15 @@
       "commit_timestamp": "2026-10-27T21:01:21+05:30",
       "commit_message": "feat: solve SumOfNumbers with test cases (Basic Math & Number Logic)",
       "file_path": "DSAprogress/SumOfNumbers.java"
+    },
+    {
+      "class_name": "CountDigits",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Count the Number of Digits in an Integer",
+      "date_solved": "2026-10-27",
+      "commit_timestamp": "2026-10-27T21:37:43+05:30",
+      "commit_message": "feat: solve CountDigits with test cases (Basic Math & Number Logic)",
+      "file_path": "DSAprogress/CountDigits.java"
     }
   ]
 }
