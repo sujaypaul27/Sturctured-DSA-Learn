@@ -1,6 +1,6 @@
 {
-  "total_solved": 5,
-  "last_updated": "2026-10-27T23:47:08+05:30",
+  "total_solved": 6,
+  "last_updated": "2026-10-27T20:42:45+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -46,6 +46,15 @@
       "commit_timestamp": "2026-10-27T23:47:08+05:30",
       "commit_message": "feat: solve ArmstrongNumber with test cases (Basic Math & Number Logic)",
       "file_path": "DSAprogress/ArmstrongNumber.java"
+    },
+    {
+      "class_name": "GCDAndLCM",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Find Greatest Common Divisor (GCD) and Least Common Multiple (LCM)",
+      "date_solved": "2026-10-27",
+      "commit_timestamp": "2026-10-27T20:42:45+05:30",
+      "commit_message": "feat: solve GCDAndLCM with test cases (Basic Math & Number Logic)",
+      "file_path": "DSAprogress/GCDAndLCM.java"
     }
   ]
 }
