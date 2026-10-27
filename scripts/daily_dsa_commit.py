@@ -29,7 +29,7 @@ from pydantic import BaseModel, Field
 # ---------------------------------------------------------------------------
 AUTHOR_NAME = "sujaypaul27"
 AUTHOR_EMAIL = "sujaypaul2711@gmail.com"
-DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DSA_DIR = REPO_ROOT / "DSAprogress"
 TRACKER_FILE = DSA_DIR / "progress_tracker.json"
@@ -167,7 +167,7 @@ class JavaDSAProblem(BaseModel):
         description="Clear title of the problem, e.g., 'Two Sum - Find Indices with Given Target'"
     )
     commit_message: str = Field(
-        description="Clean, natural commit message, e.g., 'feat: solve TwoSum with test cases (Arrays)'"
+        description="Clean, personal commit message like: 'feat: solve TwoSum with test cases (Arrays)'"
     )
     java_code: str = Field(
         description="Complete, self-contained, 100% compilable Java source code including header documentation, public class, methods, and main method with test cases"
@@ -329,7 +329,7 @@ def request_dsa_batch(
     target_problems: List[str],
     all_solved: Set[str]
 ) -> List[JavaDSAProblem]:
-    """Fetch next set of problem solutions from Gemini."""
+    """Fetch next set of problem solutions from Gemini with retry & fallback."""
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         print("[ERROR] GEMINI_API_KEY environment variable is not set!")
@@ -362,8 +362,8 @@ For each problem:
 2. `topic`: The topic name (e.g. `{active_topic}`).
 3. `problem_title`: Clear problem title.
 4. `commit_message`: Clean, personal commit message like:
-   - `feat(dsa): solve <ClassName> with test cases`
-   - `feat(dsa): implement <ClassName> (<Topic>)`
+   - `feat: solve <ClassName> with test cases`
+   - `feat: implement <ClassName> (<Topic>)`
 5. `java_code`: Complete, self-contained, 100% compilable Java program:
    - Header Javadoc comment containing:
      * Problem Statement
@@ -381,7 +381,14 @@ For each problem:
 Provide exactly {target_count} sequential problems.
 """
 
-    model_candidates = [DEFAULT_MODEL, "gemini-3.8-flash", "gemini-2.5-flash"]
+    # Up-to-date models in priority order
+    model_candidates = [
+        DEFAULT_MODEL,
+        "gemini-3.8-flash",
+        "gemini-3.5-flash-lite",
+        "gemini-3.1-flash-lite",
+        "gemini-3.1-pro-preview"
+    ]
     models_to_try = []
     for m in model_candidates:
         if m and m not in models_to_try:
@@ -389,39 +396,49 @@ Provide exactly {target_count} sequential problems.
 
     last_error = None
     for model_name in models_to_try:
-        print(f"[INFO] Requesting {target_count} problems using model '{model_name}'...")
-        try:
-            response = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json",
-                    response_schema=DSABatchResponse,
-                    temperature=0.2,
+        # Retry up to 3 times per model in case of temporary 503 high demand
+        for attempt in range(3):
+            print(f"[INFO] Requesting {target_count} problems using model '{model_name}' (attempt {attempt + 1}/3)...")
+            try:
+                response = client.models.generate_content(
+                    model=model_name,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        response_mime_type="application/json",
+                        response_schema=DSABatchResponse,
+                        temperature=0.2,
+                    )
                 )
-            )
 
-            if hasattr(response, "parsed") and response.parsed and hasattr(response.parsed, "problems"):
-                batch = response.parsed
-                if batch.problems:
-                    print(f"[SUCCESS] Prepared {len(batch.problems)} problems.")
+                if hasattr(response, "parsed") and response.parsed and hasattr(response.parsed, "problems"):
+                    batch = response.parsed
+                    if batch.problems:
+                        print(f"[SUCCESS] Prepared {len(batch.problems)} problems with {model_name}.")
+                        return batch.problems
+
+                raw_text = response.text.strip()
+                if raw_text.startswith("```"):
+                    raw_text = re.sub(r"^```(?:json)?\r?\n?", "", raw_text)
+                    raw_text = re.sub(r"\r?\n?```$", "", raw_text)
+
+                data = json.loads(raw_text)
+                if isinstance(data, dict) and "problems" in data:
+                    batch = DSABatchResponse.model_validate(data)
                     return batch.problems
-
-            raw_text = response.text.strip()
-            if raw_text.startswith("```"):
-                raw_text = re.sub(r"^```(?:json)?\r?\n?", "", raw_text)
-                raw_text = re.sub(r"\r?\n?```$", "", raw_text)
-
-            data = json.loads(raw_text)
-            if isinstance(data, dict) and "problems" in data:
-                batch = DSABatchResponse.model_validate(data)
-                return batch.problems
-            elif isinstance(data, list):
-                problems = [JavaDSAProblem.model_validate(item) for item in data]
-                return problems
-        except Exception as e:
-            print(f"[WARN] Error with model {model_name}: {e}")
-            last_error = e
+                elif isinstance(data, list):
+                    problems = [JavaDSAProblem.model_validate(item) for item in data]
+                    return problems
+            except Exception as e:
+                err_str = str(e)
+                print(f"[WARN] Error with model {model_name}: {err_str[:120]}")
+                last_error = e
+                # If model is 404 (not found / deprecated), do not retry this model
+                if "404" in err_str or "NOT_FOUND" in err_str:
+                    break
+                # If temporary demand / 503, wait with exponential backoff and retry
+                wait_time = (attempt + 1) * 5
+                print(f"[INFO] Pausing {wait_time}s before retry...")
+                time.sleep(wait_time)
 
     raise RuntimeError(f"All model attempts failed. Last error: {last_error}")
 
