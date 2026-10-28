@@ -1,6 +1,6 @@
 {
-  "total_solved": 12,
-  "last_updated": "2026-10-28T22:13:29+05:30",
+  "total_solved": 13,
+  "last_updated": "2026-10-28T23:39:17+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -109,6 +109,15 @@
       "commit_timestamp": "2026-10-28T22:13:29+05:30",
       "commit_message": "feat: solve PerfectNumber with square root divisor check (Basic Math & Number Logic)",
       "file_path": "DSAprogress/PerfectNumber.java"
+    },
+    {
+      "class_name": "PowerOfTwo",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Power of Two - Bitwise and Arithmetic Validation",
+      "date_solved": "2026-10-28",
+      "commit_timestamp": "2026-10-28T23:39:17+05:30",
+      "commit_message": "feat: solve PowerOfTwo using bit manipulation (Basic Math & Number Logic)",
+      "file_path": "DSAprogress/PowerOfTwo.java"
     }
   ]
 }
