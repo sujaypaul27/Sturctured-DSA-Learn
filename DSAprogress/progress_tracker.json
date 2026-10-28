@@ -1,6 +1,6 @@
 {
-  "total_solved": 11,
-  "last_updated": "2026-10-28T21:22:45+05:30",
+  "total_solved": 12,
+  "last_updated": "2026-10-28T22:13:29+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -100,6 +100,15 @@
       "commit_timestamp": "2026-10-28T21:22:45+05:30",
       "commit_message": "feat: solve SquareRootInteger using binary search (Basic Math & Number Logic)",
       "file_path": "DSAprogress/SquareRootInteger.java"
+    },
+    {
+      "class_name": "PerfectNumber",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Perfect Number - Validate Sum of Proper Divisors",
+      "date_solved": "2026-10-28",
+      "commit_timestamp": "2026-10-28T22:13:29+05:30",
+      "commit_message": "feat: solve PerfectNumber with square root divisor check (Basic Math & Number Logic)",
+      "file_path": "DSAprogress/PerfectNumber.java"
     }
   ]
 }
