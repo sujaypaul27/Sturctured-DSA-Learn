@@ -1,6 +1,6 @@
 {
-  "total_solved": 10,
-  "last_updated": "2026-10-28T21:07:33+05:30",
+  "total_solved": 11,
+  "last_updated": "2026-10-28T21:22:45+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -91,6 +91,15 @@
       "commit_timestamp": "2026-10-28T21:07:33+05:30",
       "commit_message": "feat: solve FibonacciNumber with test cases (Basic Math & Number Logic)",
       "file_path": "DSAprogress/FibonacciNumber.java"
+    },
+    {
+      "class_name": "SquareRootInteger",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Square Root of an Integer - Floor Value Computation",
+      "date_solved": "2026-10-28",
+      "commit_timestamp": "2026-10-28T21:22:45+05:30",
+      "commit_message": "feat: solve SquareRootInteger using binary search (Basic Math & Number Logic)",
+      "file_path": "DSAprogress/SquareRootInteger.java"
     }
   ]
 }
