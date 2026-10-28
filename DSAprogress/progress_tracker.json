@@ -1,6 +1,6 @@
 {
-  "total_solved": 9,
-  "last_updated": "2026-10-27T23:06:53+05:30",
+  "total_solved": 10,
+  "last_updated": "2026-10-28T21:07:33+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -82,6 +82,15 @@
       "commit_timestamp": "2026-10-27T23:06:53+05:30",
       "commit_message": "feat: solve FactorialNumber with test cases (Basic Math & Number Logic)",
       "file_path": "DSAprogress/FactorialNumber.java"
+    },
+    {
+      "class_name": "FibonacciNumber",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Fibonacci Number - Find the N-th Fibonacci Term",
+      "date_solved": "2026-10-28",
+      "commit_timestamp": "2026-10-28T21:07:33+05:30",
+      "commit_message": "feat: solve FibonacciNumber with test cases (Basic Math & Number Logic)",
+      "file_path": "DSAprogress/FibonacciNumber.java"
     }
   ]
 }
