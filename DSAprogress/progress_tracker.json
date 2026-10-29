@@ -1,6 +1,6 @@
 {
-  "total_solved": 14,
-  "last_updated": "2026-10-29T21:05:30+05:30",
+  "total_solved": 15,
+  "last_updated": "2026-10-29T21:41:08+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -127,6 +127,15 @@
       "commit_timestamp": "2026-10-29T21:05:30+05:30",
       "commit_message": "feat: solve BinaryToDecimal with test cases (Basic Math & Number Logic)",
       "file_path": "DSAprogress/BinaryToDecimal.java"
+    },
+    {
+      "class_name": "DecimalToBinary",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Convert Decimal Number to Binary",
+      "date_solved": "2026-10-29",
+      "commit_timestamp": "2026-10-29T21:41:08+05:30",
+      "commit_message": "feat: solve DecimalToBinary with test cases (Basic Math & Number Logic)",
+      "file_path": "DSAprogress/DecimalToBinary.java"
     }
   ]
 }
