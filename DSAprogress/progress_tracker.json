@@ -1,6 +1,6 @@
 {
-  "total_solved": 18,
-  "last_updated": "2026-10-29T21:02:47+05:30",
+  "total_solved": 19,
+  "last_updated": "2026-10-29T21:31:20+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -163,6 +163,15 @@
       "commit_timestamp": "2026-10-29T21:02:47+05:30",
       "commit_message": "feat: solve PrintNumbersNTo1 with recursion test cases",
       "file_path": "DSAprogress/PrintNumbersNTo1.java"
+    },
+    {
+      "class_name": "SumOfFirstNNaturalNumbers",
+      "topic": "Patterns & Recursion Basics",
+      "problem_title": "Sum of First N Natural Numbers Using Recursion",
+      "date_solved": "2026-10-29",
+      "commit_timestamp": "2026-10-29T21:31:20+05:30",
+      "commit_message": "feat: solve SumOfFirstNNaturalNumbers with functional and parameterized recursion",
+      "file_path": "DSAprogress/SumOfFirstNNaturalNumbers.java"
     }
   ]
 }
