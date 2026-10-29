@@ -1,6 +1,6 @@
 {
-  "total_solved": 16,
-  "last_updated": "2026-10-29T22:42:45+05:30",
+  "total_solved": 17,
+  "last_updated": "2026-10-29T23:36:44+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -145,6 +145,15 @@
       "commit_timestamp": "2026-10-29T22:42:45+05:30",
       "commit_message": "feat: solve LeapYearCheck with test cases (Basic Math & Number Logic)",
       "file_path": "DSAprogress/LeapYearCheck.java"
+    },
+    {
+      "class_name": "PrintNumbers1ToN",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Print Numbers from 1 to N Without Loops (Recursion)",
+      "date_solved": "2026-10-29",
+      "commit_timestamp": "2026-10-29T23:36:44+05:30",
+      "commit_message": "feat: solve PrintNumbers1ToN with test cases (Basic Math & Number Logic)",
+      "file_path": "DSAprogress/PrintNumbers1ToN.java"
     }
   ]
 }
