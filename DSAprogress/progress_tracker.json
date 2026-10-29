@@ -1,6 +1,6 @@
 {
-  "total_solved": 19,
-  "last_updated": "2026-10-29T21:31:20+05:30",
+  "total_solved": 20,
+  "last_updated": "2026-10-29T22:01:40+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -172,6 +172,15 @@
       "commit_timestamp": "2026-10-29T21:31:20+05:30",
       "commit_message": "feat: solve SumOfFirstNNaturalNumbers with functional and parameterized recursion",
       "file_path": "DSAprogress/SumOfFirstNNaturalNumbers.java"
+    },
+    {
+      "class_name": "FactorialRecursion",
+      "topic": "Patterns & Recursion Basics",
+      "problem_title": "Factorial of a Number Using Recursion",
+      "date_solved": "2026-10-29",
+      "commit_timestamp": "2026-10-29T22:01:40+05:30",
+      "commit_message": "feat: implement FactorialRecursion with edge cases",
+      "file_path": "DSAprogress/FactorialRecursion.java"
     }
   ]
 }
