@@ -1,6 +1,6 @@
 {
-  "total_solved": 21,
-  "last_updated": "2026-10-29T22:29:39+05:30",
+  "total_solved": 22,
+  "last_updated": "2026-10-29T22:48:49+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -190,6 +190,15 @@
       "commit_timestamp": "2026-10-29T22:29:39+05:30",
       "commit_message": "feat: solve ReverseArrayRecursion using two-pointer recursive swap",
       "file_path": "DSAprogress/ReverseArrayRecursion.java"
+    },
+    {
+      "class_name": "StringPalindromeRecursion",
+      "topic": "Patterns & Recursion Basics",
+      "problem_title": "Check if a String is Palindrome Using Recursion",
+      "date_solved": "2026-10-29",
+      "commit_timestamp": "2026-10-29T22:48:49+05:30",
+      "commit_message": "feat: implement StringPalindromeRecursion with case and symbol handling",
+      "file_path": "DSAprogress/StringPalindromeRecursion.java"
     }
   ]
 }
