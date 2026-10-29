@@ -1,6 +1,6 @@
 {
-  "total_solved": 13,
-  "last_updated": "2026-10-28T23:39:17+05:30",
+  "total_solved": 14,
+  "last_updated": "2026-10-29T21:05:30+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -118,6 +118,15 @@
       "commit_timestamp": "2026-10-28T23:39:17+05:30",
       "commit_message": "feat: solve PowerOfTwo using bit manipulation (Basic Math & Number Logic)",
       "file_path": "DSAprogress/PowerOfTwo.java"
+    },
+    {
+      "class_name": "BinaryToDecimal",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Convert Binary Number to Decimal",
+      "date_solved": "2026-10-29",
+      "commit_timestamp": "2026-10-29T21:05:30+05:30",
+      "commit_message": "feat: solve BinaryToDecimal with test cases (Basic Math & Number Logic)",
+      "file_path": "DSAprogress/BinaryToDecimal.java"
     }
   ]
 }
