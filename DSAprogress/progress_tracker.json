@@ -1,6 +1,6 @@
 {
-  "total_solved": 27,
-  "last_updated": "2026-10-30T22:56:04+05:30",
+  "total_solved": 28,
+  "last_updated": "2026-10-30T23:33:14+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -244,6 +244,15 @@
       "commit_timestamp": "2026-10-30T22:56:04+05:30",
       "commit_message": "feat: implement PermutationsOfString with recursion (Patterns & Recursion Basics)",
       "file_path": "DSAprogress/PermutationsOfString.java"
+    },
+    {
+      "class_name": "LargestElementInArray",
+      "topic": "Patterns & Recursion Basics",
+      "problem_title": "Find the Largest Element in an Array (Iterative and Recursive)",
+      "date_solved": "2026-10-30",
+      "commit_timestamp": "2026-10-30T23:33:14+05:30",
+      "commit_message": "feat: solve LargestElementInArray with recursion and iteration (Patterns & Recursion Basics)",
+      "file_path": "DSAprogress/LargestElementInArray.java"
     }
   ]
 }
