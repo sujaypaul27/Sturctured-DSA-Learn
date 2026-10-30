@@ -1,6 +1,6 @@
 {
-  "total_solved": 23,
-  "last_updated": "2026-10-29T23:42:39+05:30",
+  "total_solved": 24,
+  "last_updated": "2026-10-30T21:06:07+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -208,6 +208,15 @@
       "commit_timestamp": "2026-10-29T23:42:39+05:30",
       "commit_message": "feat: solve FibonacciRecursion demonstrating tree recursion",
       "file_path": "DSAprogress/FibonacciRecursion.java"
+    },
+    {
+      "class_name": "PowerOfNumberRecursion",
+      "topic": "Patterns & Recursion Basics",
+      "problem_title": "Calculate Power of a Number using Recursion",
+      "date_solved": "2026-10-30",
+      "commit_timestamp": "2026-10-30T21:06:07+05:30",
+      "commit_message": "feat: solve PowerOfNumberRecursion with test cases (Patterns & Recursion Basics)",
+      "file_path": "DSAprogress/PowerOfNumberRecursion.java"
     }
   ]
 }
