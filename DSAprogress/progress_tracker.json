@@ -1,6 +1,6 @@
 {
-  "total_solved": 25,
-  "last_updated": "2026-10-30T21:26:30+05:30",
+  "total_solved": 26,
+  "last_updated": "2026-10-30T22:17:24+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -226,6 +226,15 @@
       "commit_timestamp": "2026-10-30T21:26:30+05:30",
       "commit_message": "feat: implement SubsetsOfArray using backtracking (Patterns & Recursion Basics)",
       "file_path": "DSAprogress/SubsetsOfArray.java"
+    },
+    {
+      "class_name": "TowerOfHanoi",
+      "topic": "Patterns & Recursion Basics",
+      "problem_title": "Tower of Hanoi - Step by Step Disk Transfer",
+      "date_solved": "2026-10-30",
+      "commit_timestamp": "2026-10-30T22:17:24+05:30",
+      "commit_message": "feat: solve TowerOfHanoi with step simulation (Patterns & Recursion Basics)",
+      "file_path": "DSAprogress/TowerOfHanoi.java"
     }
   ]
 }
