@@ -1,6 +1,6 @@
 {
-  "total_solved": 26,
-  "last_updated": "2026-10-30T22:17:24+05:30",
+  "total_solved": 27,
+  "last_updated": "2026-10-30T22:56:04+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -235,6 +235,15 @@
       "commit_timestamp": "2026-10-30T22:17:24+05:30",
       "commit_message": "feat: solve TowerOfHanoi with step simulation (Patterns & Recursion Basics)",
       "file_path": "DSAprogress/TowerOfHanoi.java"
+    },
+    {
+      "class_name": "PermutationsOfString",
+      "topic": "Patterns & Recursion Basics",
+      "problem_title": "Generate All Distinct Permutations of a String",
+      "date_solved": "2026-10-30",
+      "commit_timestamp": "2026-10-30T22:56:04+05:30",
+      "commit_message": "feat: implement PermutationsOfString with recursion (Patterns & Recursion Basics)",
+      "file_path": "DSAprogress/PermutationsOfString.java"
     }
   ]
 }
