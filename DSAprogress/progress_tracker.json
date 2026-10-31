@@ -1,6 +1,6 @@
 {
-  "total_solved": 31,
-  "last_updated": "2026-10-31T22:41:27+05:30",
+  "total_solved": 32,
+  "last_updated": "2026-10-31T23:16:00+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -280,6 +280,15 @@
       "commit_timestamp": "2026-10-31T22:41:27+05:30",
       "commit_message": "feat: solve RemoveDuplicatesFromSortedArray using two-pointer technique",
       "file_path": "DSAprogress/RemoveDuplicatesFromSortedArray.java"
+    },
+    {
+      "class_name": "LeftRotateArrayByOne",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Left Rotate an Array by One Position",
+      "date_solved": "2026-10-31",
+      "commit_timestamp": "2026-10-31T23:16:00+05:30",
+      "commit_message": "feat: implement LeftRotateArrayByOne in-place (Arrays)",
+      "file_path": "DSAprogress/LeftRotateArrayByOne.java"
     }
   ]
 }
