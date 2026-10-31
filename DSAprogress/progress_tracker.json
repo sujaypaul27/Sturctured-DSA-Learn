@@ -1,6 +1,6 @@
 {
-  "total_solved": 30,
-  "last_updated": "2026-10-31T21:51:55+05:30",
+  "total_solved": 31,
+  "last_updated": "2026-10-31T22:41:27+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -271,6 +271,15 @@
       "commit_timestamp": "2026-10-31T21:51:55+05:30",
       "commit_message": "feat: solve CheckIfArraySorted with circular drop check",
       "file_path": "DSAprogress/CheckIfArraySorted.java"
+    },
+    {
+      "class_name": "RemoveDuplicatesFromSortedArray",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Remove Duplicates from Sorted Array In-Place",
+      "date_solved": "2026-10-31",
+      "commit_timestamp": "2026-10-31T22:41:27+05:30",
+      "commit_message": "feat: solve RemoveDuplicatesFromSortedArray using two-pointer technique",
+      "file_path": "DSAprogress/RemoveDuplicatesFromSortedArray.java"
     }
   ]
 }
