@@ -1,6 +1,6 @@
 {
-  "total_solved": 28,
-  "last_updated": "2026-10-30T23:33:14+05:30",
+  "total_solved": 29,
+  "last_updated": "2026-10-31T20:54:32+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -253,6 +253,15 @@
       "commit_timestamp": "2026-10-30T23:33:14+05:30",
       "commit_message": "feat: solve LargestElementInArray with recursion and iteration (Patterns & Recursion Basics)",
       "file_path": "DSAprogress/LargestElementInArray.java"
+    },
+    {
+      "class_name": "SecondLargestElement",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Find Second Largest and Second Smallest Element in an Array",
+      "date_solved": "2026-10-31",
+      "commit_timestamp": "2026-10-31T20:54:32+05:30",
+      "commit_message": "feat: solve SecondLargestElement with optimal single-pass approach",
+      "file_path": "DSAprogress/SecondLargestElement.java"
     }
   ]
 }
