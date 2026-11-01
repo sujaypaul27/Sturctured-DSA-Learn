@@ -1,6 +1,6 @@
 {
-  "total_solved": 34,
-  "last_updated": "2026-11-01T21:39:27+05:30",
+  "total_solved": 35,
+  "last_updated": "2026-11-01T22:46:07+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -307,6 +307,15 @@
       "commit_timestamp": "2026-11-01T21:39:27+05:30",
       "commit_message": "feat: solve MoveZeroesToEnd with two-pointer approach (Arrays)",
       "file_path": "DSAprogress/MoveZeroesToEnd.java"
+    },
+    {
+      "class_name": "LinearSearch",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Linear Search - Find Element Index",
+      "date_solved": "2026-11-01",
+      "commit_timestamp": "2026-11-01T22:46:07+05:30",
+      "commit_message": "feat: implement LinearSearch with edge cases (Arrays)",
+      "file_path": "DSAprogress/LinearSearch.java"
     }
   ]
 }
