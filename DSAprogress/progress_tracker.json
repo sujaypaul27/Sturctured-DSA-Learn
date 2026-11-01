@@ -1,6 +1,6 @@
 {
-  "total_solved": 33,
-  "last_updated": "2026-11-01T20:47:39+05:30",
+  "total_solved": 34,
+  "last_updated": "2026-11-01T21:39:27+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -298,6 +298,15 @@
       "commit_timestamp": "2026-11-01T20:47:39+05:30",
       "commit_message": "feat: solve RotateArrayByK using reversal algorithm (Arrays)",
       "file_path": "DSAprogress/RotateArrayByK.java"
+    },
+    {
+      "class_name": "MoveZeroesToEnd",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Move Zeroes to End of Array",
+      "date_solved": "2026-11-01",
+      "commit_timestamp": "2026-11-01T21:39:27+05:30",
+      "commit_message": "feat: solve MoveZeroesToEnd with two-pointer approach (Arrays)",
+      "file_path": "DSAprogress/MoveZeroesToEnd.java"
     }
   ]
 }
