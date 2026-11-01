@@ -1,6 +1,6 @@
 {
-  "total_solved": 35,
-  "last_updated": "2026-11-01T22:46:07+05:30",
+  "total_solved": 36,
+  "last_updated": "2026-11-01T23:36:10+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -316,6 +316,15 @@
       "commit_timestamp": "2026-11-01T22:46:07+05:30",
       "commit_message": "feat: implement LinearSearch with edge cases (Arrays)",
       "file_path": "DSAprogress/LinearSearch.java"
+    },
+    {
+      "class_name": "UnionOfSortedArrays",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Union of Two Sorted Arrays",
+      "date_solved": "2026-11-01",
+      "commit_timestamp": "2026-11-01T23:36:10+05:30",
+      "commit_message": "feat: solve UnionOfSortedArrays with two pointers (Arrays)",
+      "file_path": "DSAprogress/UnionOfSortedArrays.java"
     }
   ]
 }
