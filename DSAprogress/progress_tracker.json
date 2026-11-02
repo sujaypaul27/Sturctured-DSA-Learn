@@ -1,6 +1,6 @@
 {
-  "total_solved": 39,
-  "last_updated": "2026-11-02T22:17:53+05:30",
+  "total_solved": 40,
+  "last_updated": "2026-11-02T23:01:08+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -352,6 +352,15 @@
       "commit_timestamp": "2026-11-02T22:17:53+05:30",
       "commit_message": "feat: solve FindSingleNumber using XOR properties (Arrays)",
       "file_path": "DSAprogress/FindSingleNumber.java"
+    },
+    {
+      "class_name": "TwoSum",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Two Sum - Find Indices with Given Target",
+      "date_solved": "2026-11-02",
+      "commit_timestamp": "2026-11-02T23:01:08+05:30",
+      "commit_message": "feat: solve TwoSum with HashMap one-pass (Arrays)",
+      "file_path": "DSAprogress/TwoSum.java"
     }
   ]
 }
