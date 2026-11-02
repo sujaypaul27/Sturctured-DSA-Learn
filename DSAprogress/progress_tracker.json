@@ -1,6 +1,6 @@
 {
-  "total_solved": 40,
-  "last_updated": "2026-11-02T23:01:08+05:30",
+  "total_solved": 41,
+  "last_updated": "2026-11-02T23:45:39+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -361,6 +361,15 @@
       "commit_timestamp": "2026-11-02T23:01:08+05:30",
       "commit_message": "feat: solve TwoSum with HashMap one-pass (Arrays)",
       "file_path": "DSAprogress/TwoSum.java"
+    },
+    {
+      "class_name": "SortColorsDutchNationalFlag",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Sort Colors (Dutch National Flag Algorithm)",
+      "date_solved": "2026-11-02",
+      "commit_timestamp": "2026-11-02T23:45:39+05:30",
+      "commit_message": "feat: implement SortColorsDutchNationalFlag in-place 3-way partition (Arrays)",
+      "file_path": "DSAprogress/SortColorsDutchNationalFlag.java"
     }
   ]
 }
