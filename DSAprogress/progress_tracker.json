@@ -1,6 +1,6 @@
 {
-  "total_solved": 36,
-  "last_updated": "2026-11-01T23:36:10+05:30",
+  "total_solved": 37,
+  "last_updated": "2026-11-02T20:48:04+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -325,6 +325,15 @@
       "commit_timestamp": "2026-11-01T23:36:10+05:30",
       "commit_message": "feat: solve UnionOfSortedArrays with two pointers (Arrays)",
       "file_path": "DSAprogress/UnionOfSortedArrays.java"
+    },
+    {
+      "class_name": "MissingNumberInArray",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Missing Number in Array (0 to n)",
+      "date_solved": "2026-11-02",
+      "commit_timestamp": "2026-11-02T20:48:04+05:30",
+      "commit_message": "feat: solve MissingNumberInArray using XOR and Gauss formula (Arrays)",
+      "file_path": "DSAprogress/MissingNumberInArray.java"
     }
   ]
 }
