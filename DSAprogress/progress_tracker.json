@@ -1,6 +1,6 @@
 {
-  "total_solved": 42,
-  "last_updated": "2026-11-03T21:09:59+05:30",
+  "total_solved": 43,
+  "last_updated": "2026-11-03T21:45:57+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -379,6 +379,15 @@
       "commit_timestamp": "2026-11-03T21:09:59+05:30",
       "commit_message": "feat: solve MajorityElement with test cases (Arrays - Easy to Medium)",
       "file_path": "DSAprogress/MajorityElement.java"
+    },
+    {
+      "class_name": "KadanesAlgorithmMaxSubarray",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Kadane's Algorithm - Maximum Subarray Sum",
+      "date_solved": "2026-11-03",
+      "commit_timestamp": "2026-11-03T21:45:57+05:30",
+      "commit_message": "feat: solve KadanesAlgorithmMaxSubarray with test cases (Arrays - Easy to Medium)",
+      "file_path": "DSAprogress/KadanesAlgorithmMaxSubarray.java"
     }
   ]
 }
