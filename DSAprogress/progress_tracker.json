@@ -1,6 +1,6 @@
 {
-  "total_solved": 44,
-  "last_updated": "2026-11-03T22:53:07+05:30",
+  "total_solved": 45,
+  "last_updated": "2026-11-03T23:36:05+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -397,6 +397,15 @@
       "commit_timestamp": "2026-11-03T22:53:07+05:30",
       "commit_message": "feat: solve RearrangeArrayElementsBySign with test cases (Arrays - Easy to Medium)",
       "file_path": "DSAprogress/RearrangeArrayElementsBySign.java"
+    },
+    {
+      "class_name": "NextPermutation",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Next Permutation - Lexicographically Next Greater Permutation",
+      "date_solved": "2026-11-03",
+      "commit_timestamp": "2026-11-03T23:36:05+05:30",
+      "commit_message": "feat: solve NextPermutation with test cases (Arrays - Easy to Medium)",
+      "file_path": "DSAprogress/NextPermutation.java"
     }
   ]
 }
