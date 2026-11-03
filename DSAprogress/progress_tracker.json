@@ -1,6 +1,6 @@
 {
-  "total_solved": 41,
-  "last_updated": "2026-11-02T23:45:39+05:30",
+  "total_solved": 42,
+  "last_updated": "2026-11-03T21:09:59+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -370,6 +370,15 @@
       "commit_timestamp": "2026-11-02T23:45:39+05:30",
       "commit_message": "feat: implement SortColorsDutchNationalFlag in-place 3-way partition (Arrays)",
       "file_path": "DSAprogress/SortColorsDutchNationalFlag.java"
+    },
+    {
+      "class_name": "MajorityElement",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Majority Element - Find Element Appearing More Than N/2 Times",
+      "date_solved": "2026-11-03",
+      "commit_timestamp": "2026-11-03T21:09:59+05:30",
+      "commit_message": "feat: solve MajorityElement with test cases (Arrays - Easy to Medium)",
+      "file_path": "DSAprogress/MajorityElement.java"
     }
   ]
 }
