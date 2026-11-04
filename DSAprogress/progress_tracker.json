@@ -1,6 +1,6 @@
 {
-  "total_solved": 50,
-  "last_updated": "2026-11-04T22:55:03+05:30",
+  "total_solved": 51,
+  "last_updated": "2026-11-04T23:51:04+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -451,6 +451,15 @@
       "commit_timestamp": "2026-11-04T22:55:03+05:30",
       "commit_message": "feat: solve SpiralMatrixTraversal with test cases (Arrays)",
       "file_path": "DSAprogress/SpiralMatrixTraversal.java"
+    },
+    {
+      "class_name": "PascalTriangle",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Pascal's Triangle - Generate Rows and Specific Elements",
+      "date_solved": "2026-11-04",
+      "commit_timestamp": "2026-11-04T23:51:04+05:30",
+      "commit_message": "feat: solve PascalTriangle with test cases (Arrays)",
+      "file_path": "DSAprogress/PascalTriangle.java"
     }
   ]
 }
