@@ -1,6 +1,6 @@
 {
-  "total_solved": 46,
-  "last_updated": "2026-11-04T20:54:18+05:30",
+  "total_solved": 47,
+  "last_updated": "2026-11-04T21:31:03+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -415,6 +415,15 @@
       "commit_timestamp": "2026-11-04T20:54:18+05:30",
       "commit_message": "feat: solve LeadersInAnArray with test cases (Arrays)",
       "file_path": "DSAprogress/LeadersInAnArray.java"
+    },
+    {
+      "class_name": "LongestConsecutiveSequence",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Longest Consecutive Sequence in an Unsorted Array",
+      "date_solved": "2026-11-04",
+      "commit_timestamp": "2026-11-04T21:31:03+05:30",
+      "commit_message": "feat: solve LongestConsecutiveSequence with test cases (Arrays)",
+      "file_path": "DSAprogress/LongestConsecutiveSequence.java"
     }
   ]
 }
