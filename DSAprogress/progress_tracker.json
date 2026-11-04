@@ -1,6 +1,6 @@
 {
-  "total_solved": 48,
-  "last_updated": "2026-11-04T22:05:36+05:30",
+  "total_solved": 49,
+  "last_updated": "2026-11-04T22:28:40+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -433,6 +433,15 @@
       "commit_timestamp": "2026-11-04T22:05:36+05:30",
       "commit_message": "feat: solve SetMatrixZeroes with test cases (Arrays)",
       "file_path": "DSAprogress/SetMatrixZeroes.java"
+    },
+    {
+      "class_name": "RotateMatrixBy90Degrees",
+      "topic": "Arrays - Easy to Medium",
+      "problem_title": "Rotate Image / Matrix by 90 Degrees Clockwise",
+      "date_solved": "2026-11-04",
+      "commit_timestamp": "2026-11-04T22:28:40+05:30",
+      "commit_message": "feat: solve RotateMatrixBy90Degrees with test cases (Arrays)",
+      "file_path": "DSAprogress/RotateMatrixBy90Degrees.java"
     }
   ]
 }
