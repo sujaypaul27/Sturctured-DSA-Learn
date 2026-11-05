@@ -1,6 +1,6 @@
 {
-  "total_solved": 51,
-  "last_updated": "2026-11-04T23:51:04+05:30",
+  "total_solved": 52,
+  "last_updated": "2026-11-05T21:07:09+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -460,6 +460,15 @@
       "commit_timestamp": "2026-11-04T23:51:04+05:30",
       "commit_message": "feat: solve PascalTriangle with test cases (Arrays)",
       "file_path": "DSAprogress/PascalTriangle.java"
+    },
+    {
+      "class_name": "ReverseString",
+      "topic": "Strings",
+      "problem_title": "Reverse String - In-place Character Array Reversal",
+      "date_solved": "2026-11-05",
+      "commit_timestamp": "2026-11-05T21:07:09+05:30",
+      "commit_message": "feat: solve ReverseString with test cases (Strings)",
+      "file_path": "DSAprogress/ReverseString.java"
     }
   ]
 }
