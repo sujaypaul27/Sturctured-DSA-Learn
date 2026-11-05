@@ -1,6 +1,6 @@
 {
-  "total_solved": 53,
-  "last_updated": "2026-11-05T22:08:47+05:30",
+  "total_solved": 54,
+  "last_updated": "2026-11-05T22:22:19+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -478,6 +478,15 @@
       "commit_timestamp": "2026-11-05T22:08:47+05:30",
       "commit_message": "feat: solve CheckPalindromeString with test cases (Strings)",
       "file_path": "DSAprogress/CheckPalindromeString.java"
+    },
+    {
+      "class_name": "ValidAnagram",
+      "topic": "Strings",
+      "problem_title": "Valid Anagram - Check if Two Strings are Anagrams",
+      "date_solved": "2026-11-05",
+      "commit_timestamp": "2026-11-05T22:22:19+05:30",
+      "commit_message": "feat: solve ValidAnagram with test cases (Strings)",
+      "file_path": "DSAprogress/ValidAnagram.java"
     }
   ]
 }
