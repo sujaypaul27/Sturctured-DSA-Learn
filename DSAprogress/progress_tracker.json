@@ -1,6 +1,6 @@
 {
-  "total_solved": 54,
-  "last_updated": "2026-11-05T22:22:19+05:30",
+  "total_solved": 55,
+  "last_updated": "2026-11-05T23:47:10+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -487,6 +487,15 @@
       "commit_timestamp": "2026-11-05T22:22:19+05:30",
       "commit_message": "feat: solve ValidAnagram with test cases (Strings)",
       "file_path": "DSAprogress/ValidAnagram.java"
+    },
+    {
+      "class_name": "LongestCommonPrefix",
+      "topic": "Strings",
+      "problem_title": "Longest Common Prefix - Find Longest Common Prefix String Among Array of Strings",
+      "date_solved": "2026-11-05",
+      "commit_timestamp": "2026-11-05T23:47:10+05:30",
+      "commit_message": "feat: solve LongestCommonPrefix with test cases (Strings)",
+      "file_path": "DSAprogress/LongestCommonPrefix.java"
     }
   ]
 }
