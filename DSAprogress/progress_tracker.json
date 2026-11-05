@@ -1,6 +1,6 @@
 {
-  "total_solved": 52,
-  "last_updated": "2026-11-05T21:07:09+05:30",
+  "total_solved": 53,
+  "last_updated": "2026-11-05T22:08:47+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -469,6 +469,15 @@
       "commit_timestamp": "2026-11-05T21:07:09+05:30",
       "commit_message": "feat: solve ReverseString with test cases (Strings)",
       "file_path": "DSAprogress/ReverseString.java"
+    },
+    {
+      "class_name": "CheckPalindromeString",
+      "topic": "Strings",
+      "problem_title": "Valid Palindrome - Check if String is Palindrome ignoring Non-Alphanumeric",
+      "date_solved": "2026-11-05",
+      "commit_timestamp": "2026-11-05T22:08:47+05:30",
+      "commit_message": "feat: solve CheckPalindromeString with test cases (Strings)",
+      "file_path": "DSAprogress/CheckPalindromeString.java"
     }
   ]
 }
