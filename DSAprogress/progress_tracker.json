@@ -1,6 +1,6 @@
 {
-  "total_solved": 56,
-  "last_updated": "2026-11-06T20:49:44+05:30",
+  "total_solved": 57,
+  "last_updated": "2026-11-06T21:16:52+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -505,6 +505,15 @@
       "commit_timestamp": "2026-11-06T20:49:44+05:30",
       "commit_message": "feat: solve IsomorphicStrings with test cases (Strings)",
       "file_path": "DSAprogress/IsomorphicStrings.java"
+    },
+    {
+      "class_name": "RotateString",
+      "topic": "Strings",
+      "problem_title": "Rotate String - Check If One String is Rotation of Another",
+      "date_solved": "2026-11-06",
+      "commit_timestamp": "2026-11-06T21:16:52+05:30",
+      "commit_message": "feat: solve RotateString with test cases (Strings)",
+      "file_path": "DSAprogress/RotateString.java"
     }
   ]
 }
