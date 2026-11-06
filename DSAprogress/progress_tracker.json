@@ -1,6 +1,6 @@
 {
-  "total_solved": 59,
-  "last_updated": "2026-11-06T22:43:27+05:30",
+  "total_solved": 60,
+  "last_updated": "2026-11-06T23:16:36+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -532,6 +532,15 @@
       "commit_timestamp": "2026-11-06T22:43:27+05:30",
       "commit_message": "feat: solve IntegerToRoman with test cases (Strings)",
       "file_path": "DSAprogress/IntegerToRoman.java"
+    },
+    {
+      "class_name": "StringCompression",
+      "topic": "Strings",
+      "problem_title": "String Compression - In-place Character Count Encoding",
+      "date_solved": "2026-11-06",
+      "commit_timestamp": "2026-11-06T23:16:36+05:30",
+      "commit_message": "feat: solve StringCompression with test cases (Strings)",
+      "file_path": "DSAprogress/StringCompression.java"
     }
   ]
 }
