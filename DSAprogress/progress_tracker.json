@@ -1,6 +1,6 @@
 {
-  "total_solved": 58,
-  "last_updated": "2026-11-06T22:23:18+05:30",
+  "total_solved": 59,
+  "last_updated": "2026-11-06T22:43:27+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -523,6 +523,15 @@
       "commit_timestamp": "2026-11-06T22:23:18+05:30",
       "commit_message": "feat: solve RomanToInteger with test cases (Strings)",
       "file_path": "DSAprogress/RomanToInteger.java"
+    },
+    {
+      "class_name": "IntegerToRoman",
+      "topic": "Strings",
+      "problem_title": "Integer to Roman - Greedy Decomposition",
+      "date_solved": "2026-11-06",
+      "commit_timestamp": "2026-11-06T22:43:27+05:30",
+      "commit_message": "feat: solve IntegerToRoman with test cases (Strings)",
+      "file_path": "DSAprogress/IntegerToRoman.java"
     }
   ]
 }
