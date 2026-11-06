@@ -1,6 +1,6 @@
 {
-  "total_solved": 55,
-  "last_updated": "2026-11-05T23:47:10+05:30",
+  "total_solved": 56,
+  "last_updated": "2026-11-06T20:49:44+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -496,6 +496,15 @@
       "commit_timestamp": "2026-11-05T23:47:10+05:30",
       "commit_message": "feat: solve LongestCommonPrefix with test cases (Strings)",
       "file_path": "DSAprogress/LongestCommonPrefix.java"
+    },
+    {
+      "class_name": "IsomorphicStrings",
+      "topic": "Strings",
+      "problem_title": "Isomorphic Strings - Bijective Character Mapping",
+      "date_solved": "2026-11-06",
+      "commit_timestamp": "2026-11-06T20:49:44+05:30",
+      "commit_message": "feat: solve IsomorphicStrings with test cases (Strings)",
+      "file_path": "DSAprogress/IsomorphicStrings.java"
     }
   ]
 }
