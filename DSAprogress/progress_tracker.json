@@ -1,6 +1,6 @@
 {
-  "total_solved": 57,
-  "last_updated": "2026-11-06T21:16:52+05:30",
+  "total_solved": 58,
+  "last_updated": "2026-11-06T22:23:18+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -514,6 +514,15 @@
       "commit_timestamp": "2026-11-06T21:16:52+05:30",
       "commit_message": "feat: solve RotateString with test cases (Strings)",
       "file_path": "DSAprogress/RotateString.java"
+    },
+    {
+      "class_name": "RomanToInteger",
+      "topic": "Strings",
+      "problem_title": "Roman to Integer - Symbol-to-Value Conversion",
+      "date_solved": "2026-11-06",
+      "commit_timestamp": "2026-11-06T22:23:18+05:30",
+      "commit_message": "feat: solve RomanToInteger with test cases (Strings)",
+      "file_path": "DSAprogress/RomanToInteger.java"
     }
   ]
 }
