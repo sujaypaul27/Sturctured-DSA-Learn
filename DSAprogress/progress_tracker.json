@@ -1,6 +1,6 @@
 {
-  "total_solved": 61,
-  "last_updated": "2026-11-07T21:08:28+05:30",
+  "total_solved": 62,
+  "last_updated": "2026-11-07T21:44:46+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -550,6 +550,15 @@
       "commit_timestamp": "2026-11-07T21:08:28+05:30",
       "commit_message": "feat: solve LongestSubstringWithoutRepeatingCharacters with test cases (Strings)",
       "file_path": "DSAprogress/LongestSubstringWithoutRepeatingCharacters.java"
+    },
+    {
+      "class_name": "GroupAnagrams",
+      "topic": "Strings",
+      "problem_title": "Group Anagrams",
+      "date_solved": "2026-11-07",
+      "commit_timestamp": "2026-11-07T21:44:46+05:30",
+      "commit_message": "feat: solve GroupAnagrams with test cases (Strings)",
+      "file_path": "DSAprogress/GroupAnagrams.java"
     }
   ]
 }
