@@ -1,6 +1,6 @@
 {
-  "total_solved": 62,
-  "last_updated": "2026-11-07T21:44:46+05:30",
+  "total_solved": 63,
+  "last_updated": "2026-11-07T22:50:45+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -559,6 +559,15 @@
       "commit_timestamp": "2026-11-07T21:44:46+05:30",
       "commit_message": "feat: solve GroupAnagrams with test cases (Strings)",
       "file_path": "DSAprogress/GroupAnagrams.java"
+    },
+    {
+      "class_name": "ValidPalindromeII",
+      "topic": "Strings",
+      "problem_title": "Valid Palindrome II - At Most One Deletion",
+      "date_solved": "2026-11-07",
+      "commit_timestamp": "2026-11-07T22:50:45+05:30",
+      "commit_message": "feat: solve ValidPalindromeII with test cases (Strings)",
+      "file_path": "DSAprogress/ValidPalindromeII.java"
     }
   ]
 }
