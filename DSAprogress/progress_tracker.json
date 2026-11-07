@@ -1,6 +1,6 @@
 {
-  "total_solved": 60,
-  "last_updated": "2026-11-06T23:16:36+05:30",
+  "total_solved": 61,
+  "last_updated": "2026-11-07T21:08:28+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -541,6 +541,15 @@
       "commit_timestamp": "2026-11-06T23:16:36+05:30",
       "commit_message": "feat: solve StringCompression with test cases (Strings)",
       "file_path": "DSAprogress/StringCompression.java"
+    },
+    {
+      "class_name": "LongestSubstringWithoutRepeatingCharacters",
+      "topic": "Strings",
+      "problem_title": "Longest Substring Without Repeating Characters",
+      "date_solved": "2026-11-07",
+      "commit_timestamp": "2026-11-07T21:08:28+05:30",
+      "commit_message": "feat: solve LongestSubstringWithoutRepeatingCharacters with test cases (Strings)",
+      "file_path": "DSAprogress/LongestSubstringWithoutRepeatingCharacters.java"
     }
   ]
 }
