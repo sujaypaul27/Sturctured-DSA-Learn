@@ -1,6 +1,6 @@
 {
-  "total_solved": 66,
-  "last_updated": "2026-11-08T22:05:19+05:30",
+  "total_solved": 67,
+  "last_updated": "2026-11-08T22:46:20+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -595,6 +595,15 @@
       "commit_timestamp": "2026-11-08T22:05:19+05:30",
       "commit_message": "feat: implement UpperBoundSearch (Searching & Sorting)",
       "file_path": "DSAprogress/UpperBoundSearch.java"
+    },
+    {
+      "class_name": "SearchInsertPosition",
+      "topic": "Searching & Sorting",
+      "problem_title": "Search Insert Position - Index of Target or Insertion Point",
+      "date_solved": "2026-11-08",
+      "commit_timestamp": "2026-11-08T22:46:20+05:30",
+      "commit_message": "feat: solve SearchInsertPosition with test cases (Searching & Sorting)",
+      "file_path": "DSAprogress/SearchInsertPosition.java"
     }
   ]
 }
