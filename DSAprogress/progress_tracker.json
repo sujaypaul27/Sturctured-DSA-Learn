@@ -1,6 +1,6 @@
 {
-  "total_solved": 64,
-  "last_updated": "2026-11-07T23:22:35+05:30",
+  "total_solved": 65,
+  "last_updated": "2026-11-08T20:51:24+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -577,6 +577,15 @@
       "commit_timestamp": "2026-11-07T23:22:35+05:30",
       "commit_message": "feat: solve BinarySearch with test cases (Binary Search)",
       "file_path": "DSAprogress/BinarySearch.java"
+    },
+    {
+      "class_name": "LowerBoundSearch",
+      "topic": "Searching & Sorting",
+      "problem_title": "Lower Bound - Smallest Index Where Element >= Target",
+      "date_solved": "2026-11-08",
+      "commit_timestamp": "2026-11-08T20:51:24+05:30",
+      "commit_message": "feat: implement LowerBoundSearch (Searching & Sorting)",
+      "file_path": "DSAprogress/LowerBoundSearch.java"
     }
   ]
 }
