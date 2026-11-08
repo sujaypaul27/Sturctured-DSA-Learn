@@ -1,6 +1,6 @@
 {
-  "total_solved": 67,
-  "last_updated": "2026-11-08T22:46:20+05:30",
+  "total_solved": 68,
+  "last_updated": "2026-11-08T23:30:35+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -604,6 +604,15 @@
       "commit_timestamp": "2026-11-08T22:46:20+05:30",
       "commit_message": "feat: solve SearchInsertPosition with test cases (Searching & Sorting)",
       "file_path": "DSAprogress/SearchInsertPosition.java"
+    },
+    {
+      "class_name": "FloorAndCeilInSortedArray",
+      "topic": "Searching & Sorting",
+      "problem_title": "Floor and Ceil in a Sorted Array",
+      "date_solved": "2026-11-08",
+      "commit_timestamp": "2026-11-08T23:30:35+05:30",
+      "commit_message": "feat: solve FloorAndCeilInSortedArray with test cases (Searching & Sorting)",
+      "file_path": "DSAprogress/FloorAndCeilInSortedArray.java"
     }
   ]
 }
