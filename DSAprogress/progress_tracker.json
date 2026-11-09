@@ -1,6 +1,6 @@
 {
-  "total_solved": 68,
-  "last_updated": "2026-11-08T23:30:35+05:30",
+  "total_solved": 69,
+  "last_updated": "2026-11-09T20:49:42+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -613,6 +613,15 @@
       "commit_timestamp": "2026-11-08T23:30:35+05:30",
       "commit_message": "feat: solve FloorAndCeilInSortedArray with test cases (Searching & Sorting)",
       "file_path": "DSAprogress/FloorAndCeilInSortedArray.java"
+    },
+    {
+      "class_name": "FirstAndLastPositionInSortedArray",
+      "topic": "Searching & Sorting",
+      "problem_title": "Find First and Last Position of Element in Sorted Array",
+      "date_solved": "2026-11-09",
+      "commit_timestamp": "2026-11-09T20:49:42+05:30",
+      "commit_message": "feat: solve FirstAndLastPositionInSortedArray with test cases (Searching & Sorting)",
+      "file_path": "DSAprogress/FirstAndLastPositionInSortedArray.java"
     }
   ]
 }
