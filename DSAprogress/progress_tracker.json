@@ -1,6 +1,6 @@
 {
-  "total_solved": 69,
-  "last_updated": "2026-11-09T20:49:42+05:30",
+  "total_solved": 70,
+  "last_updated": "2026-11-09T21:51:16+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -622,6 +622,15 @@
       "commit_timestamp": "2026-11-09T20:49:42+05:30",
       "commit_message": "feat: solve FirstAndLastPositionInSortedArray with test cases (Searching & Sorting)",
       "file_path": "DSAprogress/FirstAndLastPositionInSortedArray.java"
+    },
+    {
+      "class_name": "CountOccurrencesInSortedArray",
+      "topic": "Searching & Sorting",
+      "problem_title": "Count Occurrences of a Target in Sorted Array",
+      "date_solved": "2026-11-09",
+      "commit_timestamp": "2026-11-09T21:51:16+05:30",
+      "commit_message": "feat: implement CountOccurrencesInSortedArray (Searching & Sorting)",
+      "file_path": "DSAprogress/CountOccurrencesInSortedArray.java"
     }
   ]
 }
