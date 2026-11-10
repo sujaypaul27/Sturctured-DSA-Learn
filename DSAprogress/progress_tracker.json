@@ -1,6 +1,6 @@
 {
-  "total_solved": 73,
-  "last_updated": "2026-11-10T20:57:50+05:30",
+  "total_solved": 74,
+  "last_updated": "2026-11-10T21:57:34+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -658,6 +658,15 @@
       "commit_timestamp": "2026-11-10T20:57:50+05:30",
       "commit_message": "feat: solve FindPeakElement using binary search (Searching & Sorting)",
       "file_path": "DSAprogress/FindPeakElement.java"
+    },
+    {
+      "class_name": "BubbleSort",
+      "topic": "Searching & Sorting",
+      "problem_title": "Bubble Sort Algorithm with Optimization",
+      "date_solved": "2026-11-10",
+      "commit_timestamp": "2026-11-10T21:57:34+05:30",
+      "commit_message": "feat: implement BubbleSort with early termination check (Searching & Sorting)",
+      "file_path": "DSAprogress/BubbleSort.java"
     }
   ]
 }
