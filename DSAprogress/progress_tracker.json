@@ -1,6 +1,6 @@
 {
-  "total_solved": 75,
-  "last_updated": "2026-11-10T22:16:29+05:30",
+  "total_solved": 76,
+  "last_updated": "2026-11-10T23:23:22+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -676,6 +676,15 @@
       "commit_timestamp": "2026-11-10T22:16:29+05:30",
       "commit_message": "feat: implement SelectionSort algorithm (Searching & Sorting)",
       "file_path": "DSAprogress/SelectionSort.java"
+    },
+    {
+      "class_name": "InsertionSort",
+      "topic": "Searching & Sorting",
+      "problem_title": "Insertion Sort Algorithm",
+      "date_solved": "2026-11-10",
+      "commit_timestamp": "2026-11-10T23:23:22+05:30",
+      "commit_message": "feat: implement InsertionSort algorithm (Searching & Sorting)",
+      "file_path": "DSAprogress/InsertionSort.java"
     }
   ]
 }
