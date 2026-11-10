@@ -1,6 +1,6 @@
 {
-  "total_solved": 72,
-  "last_updated": "2026-11-09T23:24:37+05:30",
+  "total_solved": 73,
+  "last_updated": "2026-11-10T20:57:50+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -649,6 +649,15 @@
       "commit_timestamp": "2026-11-09T23:24:37+05:30",
       "commit_message": "feat: implement FindMinimumInRotatedSortedArray (Searching & Sorting)",
       "file_path": "DSAprogress/FindMinimumInRotatedSortedArray.java"
+    },
+    {
+      "class_name": "FindPeakElement",
+      "topic": "Searching & Sorting",
+      "problem_title": "Find Peak Element in an Array",
+      "date_solved": "2026-11-10",
+      "commit_timestamp": "2026-11-10T20:57:50+05:30",
+      "commit_message": "feat: solve FindPeakElement using binary search (Searching & Sorting)",
+      "file_path": "DSAprogress/FindPeakElement.java"
     }
   ]
 }
