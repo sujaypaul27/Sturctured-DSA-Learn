@@ -1,6 +1,6 @@
 {
-  "total_solved": 77,
-  "last_updated": "2026-11-11T20:48:25+05:30",
+  "total_solved": 78,
+  "last_updated": "2026-11-11T21:33:19+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -694,6 +694,15 @@
       "commit_timestamp": "2026-11-11T20:48:25+05:30",
       "commit_message": "uploaded MergeSort",
       "file_path": "DSAprogress/MergeSort.java"
+    },
+    {
+      "class_name": "QuickSort",
+      "topic": "Searching & Sorting",
+      "problem_title": "Quick Sort Algorithm",
+      "date_solved": "2026-11-11",
+      "commit_timestamp": "2026-11-11T21:33:19+05:30",
+      "commit_message": "uploaded QuickSort",
+      "file_path": "DSAprogress/QuickSort.java"
     }
   ]
 }
