@@ -1,6 +1,6 @@
 {
-  "total_solved": 79,
-  "last_updated": "2026-11-11T22:56:27+05:30",
+  "total_solved": 80,
+  "last_updated": "2026-11-11T23:36:42+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -712,6 +712,15 @@
       "commit_timestamp": "2026-11-11T22:56:27+05:30",
       "commit_message": "uploaded IntroductionToLinkedList",
       "file_path": "DSAprogress/IntroductionToLinkedList.java"
+    },
+    {
+      "class_name": "InsertNodeAtBeginning",
+      "topic": "Linked List",
+      "problem_title": "Insert Node at the Beginning of Linked List",
+      "date_solved": "2026-11-11",
+      "commit_timestamp": "2026-11-11T23:36:42+05:30",
+      "commit_message": "uploaded InsertNodeAtBeginning",
+      "file_path": "DSAprogress/InsertNodeAtBeginning.java"
     }
   ]
 }
