@@ -1,6 +1,6 @@
 {
-  "total_solved": 80,
-  "last_updated": "2026-11-11T23:36:42+05:30",
+  "total_solved": 81,
+  "last_updated": "2026-11-13T20:50:51+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -721,6 +721,15 @@
       "commit_timestamp": "2026-11-11T23:36:42+05:30",
       "commit_message": "uploaded InsertNodeAtBeginning",
       "file_path": "DSAprogress/InsertNodeAtBeginning.java"
+    },
+    {
+      "class_name": "InsertNodeAtEnd",
+      "topic": "Linked Lists",
+      "problem_title": "Insert Node at the End of a Linked List",
+      "date_solved": "2026-11-13",
+      "commit_timestamp": "2026-11-13T20:50:51+05:30",
+      "commit_message": "uploaded InsertNodeAtEnd",
+      "file_path": "DSAprogress/InsertNodeAtEnd.java"
     }
   ]
 }
