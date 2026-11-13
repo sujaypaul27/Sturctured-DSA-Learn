@@ -1,6 +1,6 @@
 {
-  "total_solved": 84,
-  "last_updated": "2026-11-13T22:12:54+05:30",
+  "total_solved": 85,
+  "last_updated": "2026-11-13T23:06:02+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -757,6 +757,15 @@
       "commit_timestamp": "2026-11-13T22:12:54+05:30",
       "commit_message": "uploaded MiddleOfLinkedList",
       "file_path": "DSAprogress/MiddleOfLinkedList.java"
+    },
+    {
+      "class_name": "DetectCycleInLinkedList",
+      "topic": "Linked Lists",
+      "problem_title": "Detect Cycle in a Linked List",
+      "date_solved": "2026-11-13",
+      "commit_timestamp": "2026-11-13T23:06:02+05:30",
+      "commit_message": "uploaded DetectCycleInLinkedList",
+      "file_path": "DSAprogress/DetectCycleInLinkedList.java"
     }
   ]
 }
