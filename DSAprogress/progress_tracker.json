@@ -1,6 +1,6 @@
 {
-  "total_solved": 82,
-  "last_updated": "2026-11-13T21:13:22+05:30",
+  "total_solved": 83,
+  "last_updated": "2026-11-13T21:42:27+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -739,6 +739,15 @@
       "commit_timestamp": "2026-11-13T21:13:22+05:30",
       "commit_message": "uploaded DeleteNodeInLinkedList",
       "file_path": "DSAprogress/DeleteNodeInLinkedList.java"
+    },
+    {
+      "class_name": "ReverseLinkedList",
+      "topic": "Linked Lists",
+      "problem_title": "Reverse a Linked List",
+      "date_solved": "2026-11-13",
+      "commit_timestamp": "2026-11-13T21:42:27+05:30",
+      "commit_message": "uploaded ReverseLinkedList",
+      "file_path": "DSAprogress/ReverseLinkedList.java"
     }
   ]
 }
