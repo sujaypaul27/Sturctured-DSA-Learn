@@ -1,6 +1,6 @@
 {
-  "total_solved": 83,
-  "last_updated": "2026-11-13T21:42:27+05:30",
+  "total_solved": 84,
+  "last_updated": "2026-11-13T22:12:54+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -748,6 +748,15 @@
       "commit_timestamp": "2026-11-13T21:42:27+05:30",
       "commit_message": "uploaded ReverseLinkedList",
       "file_path": "DSAprogress/ReverseLinkedList.java"
+    },
+    {
+      "class_name": "MiddleOfLinkedList",
+      "topic": "Linked Lists",
+      "problem_title": "Find the Middle of a Linked List",
+      "date_solved": "2026-11-13",
+      "commit_timestamp": "2026-11-13T22:12:54+05:30",
+      "commit_message": "uploaded MiddleOfLinkedList",
+      "file_path": "DSAprogress/MiddleOfLinkedList.java"
     }
   ]
 }
