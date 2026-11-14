@@ -1,6 +1,6 @@
 {
-  "total_solved": 90,
-  "last_updated": "2026-11-14T22:24:01+05:30",
+  "total_solved": 91,
+  "last_updated": "2026-11-14T22:52:58+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -811,6 +811,15 @@
       "commit_timestamp": "2026-11-14T22:24:01+05:30",
       "commit_message": "uploaded MergeTwoSortedLists",
       "file_path": "DSAprogress/MergeTwoSortedLists.java"
+    },
+    {
+      "class_name": "AddTwoNumbersLinkedList",
+      "topic": "Linked Lists",
+      "problem_title": "Add Two Numbers Represented by Linked Lists",
+      "date_solved": "2026-11-14",
+      "commit_timestamp": "2026-11-14T22:52:58+05:30",
+      "commit_message": "uploaded AddTwoNumbersLinkedList",
+      "file_path": "DSAprogress/AddTwoNumbersLinkedList.java"
     }
   ]
 }
