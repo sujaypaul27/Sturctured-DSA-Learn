@@ -1,6 +1,6 @@
 {
-  "total_solved": 88,
-  "last_updated": "2026-11-14T21:15:46+05:30",
+  "total_solved": 89,
+  "last_updated": "2026-11-14T21:43:05+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -793,6 +793,15 @@
       "commit_timestamp": "2026-11-14T21:15:46+05:30",
       "commit_message": "uploaded RemoveNthNodeFromEndOfList",
       "file_path": "DSAprogress/RemoveNthNodeFromEndOfList.java"
+    },
+    {
+      "class_name": "DeleteMiddleNodeOfLinkedList",
+      "topic": "Linked Lists",
+      "problem_title": "Delete the Middle Node of a Linked List",
+      "date_solved": "2026-11-14",
+      "commit_timestamp": "2026-11-14T21:43:05+05:30",
+      "commit_message": "uploaded DeleteMiddleNodeOfLinkedList",
+      "file_path": "DSAprogress/DeleteMiddleNodeOfLinkedList.java"
     }
   ]
 }
