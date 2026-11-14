@@ -1,6 +1,6 @@
 {
-  "total_solved": 89,
-  "last_updated": "2026-11-14T21:43:05+05:30",
+  "total_solved": 90,
+  "last_updated": "2026-11-14T22:24:01+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -802,6 +802,15 @@
       "commit_timestamp": "2026-11-14T21:43:05+05:30",
       "commit_message": "uploaded DeleteMiddleNodeOfLinkedList",
       "file_path": "DSAprogress/DeleteMiddleNodeOfLinkedList.java"
+    },
+    {
+      "class_name": "MergeTwoSortedLists",
+      "topic": "Linked Lists",
+      "problem_title": "Merge Two Sorted Lists",
+      "date_solved": "2026-11-14",
+      "commit_timestamp": "2026-11-14T22:24:01+05:30",
+      "commit_message": "uploaded MergeTwoSortedLists",
+      "file_path": "DSAprogress/MergeTwoSortedLists.java"
     }
   ]
 }
