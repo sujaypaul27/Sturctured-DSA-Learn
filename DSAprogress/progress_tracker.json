@@ -1,6 +1,6 @@
 {
-  "total_solved": 86,
-  "last_updated": "2026-11-13T23:23:10+05:30",
+  "total_solved": 87,
+  "last_updated": "2026-11-14T21:00:28+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -775,6 +775,15 @@
       "commit_timestamp": "2026-11-13T23:23:10+05:30",
       "commit_message": "uploaded FindStartingPointOfCycle",
       "file_path": "DSAprogress/FindStartingPointOfCycle.java"
+    },
+    {
+      "class_name": "CheckPalindromeLinkedList",
+      "topic": "Linked Lists",
+      "problem_title": "Check Palindrome Linked List - Determine if Linked List is a Palindrome",
+      "date_solved": "2026-11-14",
+      "commit_timestamp": "2026-11-14T21:00:28+05:30",
+      "commit_message": "uploaded CheckPalindromeLinkedList",
+      "file_path": "DSAprogress/CheckPalindromeLinkedList.java"
     }
   ]
 }
