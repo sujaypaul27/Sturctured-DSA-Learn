@@ -1,6 +1,6 @@
 {
-  "total_solved": 92,
-  "last_updated": "2026-11-14T23:47:23+05:30",
+  "total_solved": 93,
+  "last_updated": "2026-11-15T20:54:51+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -829,6 +829,15 @@
       "commit_timestamp": "2026-11-14T23:47:23+05:30",
       "commit_message": "uploaded IntersectionOfTwoLinkedLists",
       "file_path": "DSAprogress/IntersectionOfTwoLinkedLists.java"
+    },
+    {
+      "class_name": "ImplementStackUsingArray",
+      "topic": "Stacks & Queues",
+      "problem_title": "Implement Stack using Array",
+      "date_solved": "2026-11-15",
+      "commit_timestamp": "2026-11-15T20:54:51+05:30",
+      "commit_message": "uploaded ImplementStackUsingArray",
+      "file_path": "DSAprogress/ImplementStackUsingArray.java"
     }
   ]
 }
