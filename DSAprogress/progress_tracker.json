@@ -1,6 +1,6 @@
 {
-  "total_solved": 95,
-  "last_updated": "2026-11-15T22:04:19+05:30",
+  "total_solved": 96,
+  "last_updated": "2026-11-15T22:41:07+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -856,6 +856,15 @@
       "commit_timestamp": "2026-11-15T22:04:19+05:30",
       "commit_message": "uploaded ImplementQueueUsingStacks",
       "file_path": "DSAprogress/ImplementQueueUsingStacks.java"
+    },
+    {
+      "class_name": "ImplementStackUsingQueues",
+      "topic": "Stacks & Queues",
+      "problem_title": "Implement Stack using Queues",
+      "date_solved": "2026-11-15",
+      "commit_timestamp": "2026-11-15T22:41:07+05:30",
+      "commit_message": "uploaded ImplementStackUsingQueues",
+      "file_path": "DSAprogress/ImplementStackUsingQueues.java"
     }
   ]
 }
