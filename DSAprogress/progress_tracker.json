@@ -1,6 +1,6 @@
 {
-  "total_solved": 93,
-  "last_updated": "2026-11-15T20:54:51+05:30",
+  "total_solved": 94,
+  "last_updated": "2026-11-15T21:33:21+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -838,6 +838,15 @@
       "commit_timestamp": "2026-11-15T20:54:51+05:30",
       "commit_message": "uploaded ImplementStackUsingArray",
       "file_path": "DSAprogress/ImplementStackUsingArray.java"
+    },
+    {
+      "class_name": "ImplementQueueUsingArray",
+      "topic": "Stacks & Queues",
+      "problem_title": "Implement Queue using Array",
+      "date_solved": "2026-11-15",
+      "commit_timestamp": "2026-11-15T21:33:21+05:30",
+      "commit_message": "uploaded ImplementQueueUsingArray",
+      "file_path": "DSAprogress/ImplementQueueUsingArray.java"
     }
   ]
 }
