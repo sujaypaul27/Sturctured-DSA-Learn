@@ -1,6 +1,6 @@
 {
-  "total_solved": 97,
-  "last_updated": "2026-11-15T23:10:29+05:30",
+  "total_solved": 98,
+  "last_updated": "2026-11-15T23:41:19+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -874,6 +874,15 @@
       "commit_timestamp": "2026-11-15T23:10:29+05:30",
       "commit_message": "uploaded ValidParentheses",
       "file_path": "DSAprogress/ValidParentheses.java"
+    },
+    {
+      "class_name": "MinStack",
+      "topic": "Stacks & Queues",
+      "problem_title": "Min Stack",
+      "date_solved": "2026-11-15",
+      "commit_timestamp": "2026-11-15T23:41:19+05:30",
+      "commit_message": "uploaded MinStack",
+      "file_path": "DSAprogress/MinStack.java"
     }
   ]
 }
