@@ -1,6 +1,6 @@
 {
-  "total_solved": 101,
-  "last_updated": "2026-11-16T22:21:27+05:30",
+  "total_solved": 102,
+  "last_updated": "2026-11-16T23:07:26+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -910,6 +910,15 @@
       "commit_timestamp": "2026-11-16T22:21:27+05:30",
       "commit_message": "uploaded TrappingRainWater",
       "file_path": "DSAprogress/TrappingRainWater.java"
+    },
+    {
+      "class_name": "LargestRectangleInHistogram",
+      "topic": "Stacks & Queues",
+      "problem_title": "Largest Rectangle in Histogram",
+      "date_solved": "2026-11-16",
+      "commit_timestamp": "2026-11-16T23:07:26+05:30",
+      "commit_message": "uploaded LargestRectangleInHistogram",
+      "file_path": "DSAprogress/LargestRectangleInHistogram.java"
     }
   ]
 }
