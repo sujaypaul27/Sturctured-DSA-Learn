@@ -1,6 +1,6 @@
 {
-  "total_solved": 100,
-  "last_updated": "2026-11-16T21:24:09+05:30",
+  "total_solved": 101,
+  "last_updated": "2026-11-16T22:21:27+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -901,6 +901,15 @@
       "commit_timestamp": "2026-11-16T21:24:09+05:30",
       "commit_message": "uploaded NextSmallerElement",
       "file_path": "DSAprogress/NextSmallerElement.java"
+    },
+    {
+      "class_name": "TrappingRainWater",
+      "topic": "Stacks & Queues",
+      "problem_title": "Trapping Rain Water",
+      "date_solved": "2026-11-16",
+      "commit_timestamp": "2026-11-16T22:21:27+05:30",
+      "commit_message": "uploaded TrappingRainWater",
+      "file_path": "DSAprogress/TrappingRainWater.java"
     }
   ]
 }
