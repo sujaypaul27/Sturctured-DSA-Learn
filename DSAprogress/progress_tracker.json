@@ -1,6 +1,6 @@
 {
-  "total_solved": 99,
-  "last_updated": "2026-11-16T20:46:04+05:30",
+  "total_solved": 100,
+  "last_updated": "2026-11-16T21:24:09+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -892,6 +892,15 @@
       "commit_timestamp": "2026-11-16T20:46:04+05:30",
       "commit_message": "uploaded NextGreaterElement",
       "file_path": "DSAprogress/NextGreaterElement.java"
+    },
+    {
+      "class_name": "NextSmallerElement",
+      "topic": "Stacks & Queues",
+      "problem_title": "Next Smaller Element",
+      "date_solved": "2026-11-16",
+      "commit_timestamp": "2026-11-16T21:24:09+05:30",
+      "commit_message": "uploaded NextSmallerElement",
+      "file_path": "DSAprogress/NextSmallerElement.java"
     }
   ]
 }
