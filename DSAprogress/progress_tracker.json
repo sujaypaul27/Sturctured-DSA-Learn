@@ -1,6 +1,6 @@
 {
-  "total_solved": 102,
-  "last_updated": "2026-11-16T23:07:26+05:30",
+  "total_solved": 103,
+  "last_updated": "2026-11-17T20:56:58+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -919,6 +919,15 @@
       "commit_timestamp": "2026-11-16T23:07:26+05:30",
       "commit_message": "uploaded LargestRectangleInHistogram",
       "file_path": "DSAprogress/LargestRectangleInHistogram.java"
+    },
+    {
+      "class_name": "SlidingWindowMaximum",
+      "topic": "Stacks & Queues",
+      "problem_title": "Sliding Window Maximum",
+      "date_solved": "2026-11-17",
+      "commit_timestamp": "2026-11-17T20:56:58+05:30",
+      "commit_message": "uploaded SlidingWindowMaximum",
+      "file_path": "DSAprogress/SlidingWindowMaximum.java"
     }
   ]
 }
