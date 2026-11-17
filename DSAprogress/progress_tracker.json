@@ -1,6 +1,6 @@
 {
-  "total_solved": 103,
-  "last_updated": "2026-11-17T20:56:58+05:30",
+  "total_solved": 104,
+  "last_updated": "2026-11-17T21:25:50+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -928,6 +928,15 @@
       "commit_timestamp": "2026-11-17T20:56:58+05:30",
       "commit_message": "uploaded SlidingWindowMaximum",
       "file_path": "DSAprogress/SlidingWindowMaximum.java"
+    },
+    {
+      "class_name": "BinaryTreePreorderTraversal",
+      "topic": "Stacks & Queues",
+      "problem_title": "Binary Tree Preorder Traversal",
+      "date_solved": "2026-11-17",
+      "commit_timestamp": "2026-11-17T21:25:50+05:30",
+      "commit_message": "uploaded BinaryTreePreorderTraversal",
+      "file_path": "DSAprogress/BinaryTreePreorderTraversal.java"
     }
   ]
 }
