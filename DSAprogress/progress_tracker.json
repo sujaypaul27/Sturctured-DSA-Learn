@@ -1,6 +1,6 @@
 {
-  "total_solved": 106,
-  "last_updated": "2026-11-17T23:31:46+05:30",
+  "total_solved": 107,
+  "last_updated": "2026-11-18T20:54:18+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -955,6 +955,15 @@
       "commit_timestamp": "2026-11-17T23:31:46+05:30",
       "commit_message": "uploaded BinaryTreePostorderTraversal",
       "file_path": "DSAprogress/BinaryTreePostorderTraversal.java"
+    },
+    {
+      "class_name": "BinaryTreeLevelOrderTraversal",
+      "topic": "Binary Trees & BST",
+      "problem_title": "Binary Tree Level Order Traversal",
+      "date_solved": "2026-11-18",
+      "commit_timestamp": "2026-11-18T20:54:18+05:30",
+      "commit_message": "uploaded BinaryTreeLevelOrderTraversal",
+      "file_path": "DSAprogress/BinaryTreeLevelOrderTraversal.java"
     }
   ]
 }
