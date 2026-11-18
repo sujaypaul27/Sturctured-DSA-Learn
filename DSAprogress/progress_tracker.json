@@ -1,6 +1,6 @@
 {
-  "total_solved": 107,
-  "last_updated": "2026-11-18T20:54:18+05:30",
+  "total_solved": 108,
+  "last_updated": "2026-11-18T22:04:09+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -964,6 +964,15 @@
       "commit_timestamp": "2026-11-18T20:54:18+05:30",
       "commit_message": "uploaded BinaryTreeLevelOrderTraversal",
       "file_path": "DSAprogress/BinaryTreeLevelOrderTraversal.java"
+    },
+    {
+      "class_name": "MaximumDepthOfBinaryTree",
+      "topic": "Binary Trees & BST",
+      "problem_title": "Maximum Depth of Binary Tree",
+      "date_solved": "2026-11-18",
+      "commit_timestamp": "2026-11-18T22:04:09+05:30",
+      "commit_message": "uploaded MaximumDepthOfBinaryTree",
+      "file_path": "DSAprogress/MaximumDepthOfBinaryTree.java"
     }
   ]
 }
