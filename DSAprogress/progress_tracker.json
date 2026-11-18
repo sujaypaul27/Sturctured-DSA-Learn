@@ -1,6 +1,6 @@
 {
-  "total_solved": 109,
-  "last_updated": "2026-11-18T22:18:26+05:30",
+  "total_solved": 110,
+  "last_updated": "2026-11-18T23:47:41+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -982,6 +982,15 @@
       "commit_timestamp": "2026-11-18T22:18:26+05:30",
       "commit_message": "uploaded CheckBalancedBinaryTree",
       "file_path": "DSAprogress/CheckBalancedBinaryTree.java"
+    },
+    {
+      "class_name": "DiameterOfBinaryTree",
+      "topic": "Binary Trees & BST",
+      "problem_title": "Diameter of Binary Tree",
+      "date_solved": "2026-11-18",
+      "commit_timestamp": "2026-11-18T23:47:41+05:30",
+      "commit_message": "uploaded DiameterOfBinaryTree",
+      "file_path": "DSAprogress/DiameterOfBinaryTree.java"
     }
   ]
 }
