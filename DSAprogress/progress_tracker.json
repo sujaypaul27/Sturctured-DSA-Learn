@@ -1,6 +1,6 @@
 {
-  "total_solved": 108,
-  "last_updated": "2026-11-18T22:04:09+05:30",
+  "total_solved": 109,
+  "last_updated": "2026-11-18T22:18:26+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -973,6 +973,15 @@
       "commit_timestamp": "2026-11-18T22:04:09+05:30",
       "commit_message": "uploaded MaximumDepthOfBinaryTree",
       "file_path": "DSAprogress/MaximumDepthOfBinaryTree.java"
+    },
+    {
+      "class_name": "CheckBalancedBinaryTree",
+      "topic": "Binary Trees & BST",
+      "problem_title": "Check Balanced Binary Tree",
+      "date_solved": "2026-11-18",
+      "commit_timestamp": "2026-11-18T22:18:26+05:30",
+      "commit_message": "uploaded CheckBalancedBinaryTree",
+      "file_path": "DSAprogress/CheckBalancedBinaryTree.java"
     }
   ]
 }
