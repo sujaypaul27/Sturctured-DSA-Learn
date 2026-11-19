@@ -1,6 +1,6 @@
 {
-  "total_solved": 110,
-  "last_updated": "2026-11-18T23:47:41+05:30",
+  "total_solved": 111,
+  "last_updated": "2026-11-19T20:57:36+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -991,6 +991,15 @@
       "commit_timestamp": "2026-11-18T23:47:41+05:30",
       "commit_message": "uploaded DiameterOfBinaryTree",
       "file_path": "DSAprogress/DiameterOfBinaryTree.java"
+    },
+    {
+      "class_name": "MaximumPathSumBinaryTree",
+      "topic": "Binary Trees & BST",
+      "problem_title": "Binary Tree Maximum Path Sum",
+      "date_solved": "2026-11-19",
+      "commit_timestamp": "2026-11-19T20:57:36+05:30",
+      "commit_message": "uploaded MaximumPathSumBinaryTree",
+      "file_path": "DSAprogress/MaximumPathSumBinaryTree.java"
     }
   ]
 }
