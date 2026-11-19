@@ -1,6 +1,6 @@
 {
-  "total_solved": 111,
-  "last_updated": "2026-11-19T20:57:36+05:30",
+  "total_solved": 112,
+  "last_updated": "2026-11-19T22:08:08+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1000,6 +1000,15 @@
       "commit_timestamp": "2026-11-19T20:57:36+05:30",
       "commit_message": "uploaded MaximumPathSumBinaryTree",
       "file_path": "DSAprogress/MaximumPathSumBinaryTree.java"
+    },
+    {
+      "class_name": "CheckIdenticalTrees",
+      "topic": "Binary Trees & BST",
+      "problem_title": "Check If Two Binary Trees Are Identical",
+      "date_solved": "2026-11-19",
+      "commit_timestamp": "2026-11-19T22:08:08+05:30",
+      "commit_message": "uploaded CheckIdenticalTrees",
+      "file_path": "DSAprogress/CheckIdenticalTrees.java"
     }
   ]
 }
