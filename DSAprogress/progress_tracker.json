@@ -1,6 +1,6 @@
 {
-  "total_solved": 112,
-  "last_updated": "2026-11-19T22:08:08+05:30",
+  "total_solved": 113,
+  "last_updated": "2026-11-19T22:46:26+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1009,6 +1009,15 @@
       "commit_timestamp": "2026-11-19T22:08:08+05:30",
       "commit_message": "uploaded CheckIdenticalTrees",
       "file_path": "DSAprogress/CheckIdenticalTrees.java"
+    },
+    {
+      "class_name": "ZigZagLevelOrderTraversal",
+      "topic": "Binary Trees & BST",
+      "problem_title": "Binary Tree Zigzag Level Order Traversal",
+      "date_solved": "2026-11-19",
+      "commit_timestamp": "2026-11-19T22:46:26+05:30",
+      "commit_message": "uploaded ZigZagLevelOrderTraversal",
+      "file_path": "DSAprogress/ZigZagLevelOrderTraversal.java"
     }
   ]
 }
