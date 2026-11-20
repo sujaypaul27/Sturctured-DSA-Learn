@@ -1,6 +1,6 @@
 {
-  "total_solved": 116,
-  "last_updated": "2026-11-20T21:35:35+05:30",
+  "total_solved": 117,
+  "last_updated": "2026-11-20T21:54:57+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1045,6 +1045,15 @@
       "commit_timestamp": "2026-11-20T21:35:35+05:30",
       "commit_message": "uploaded SearchInBST",
       "file_path": "DSAprogress/SearchInBST.java"
+    },
+    {
+      "class_name": "InsertIntoBST",
+      "topic": "Binary Trees & BST",
+      "problem_title": "Insert into a Binary Search Tree",
+      "date_solved": "2026-11-20",
+      "commit_timestamp": "2026-11-20T21:54:57+05:30",
+      "commit_message": "uploaded InsertIntoBST",
+      "file_path": "DSAprogress/InsertIntoBST.java"
     }
   ]
 }
