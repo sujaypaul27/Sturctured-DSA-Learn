@@ -1,6 +1,6 @@
 {
-  "total_solved": 119,
-  "last_updated": "2026-11-20T23:03:24+05:30",
+  "total_solved": 120,
+  "last_updated": "2026-11-20T23:45:58+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1072,6 +1072,15 @@
       "commit_timestamp": "2026-11-20T23:03:24+05:30",
       "commit_message": "uploaded ValidateBST",
       "file_path": "DSAprogress/ValidateBST.java"
+    },
+    {
+      "class_name": "KthSmallestElementInBST",
+      "topic": "Binary Trees & BST",
+      "problem_title": "Kth Smallest Element in a BST",
+      "date_solved": "2026-11-20",
+      "commit_timestamp": "2026-11-20T23:45:58+05:30",
+      "commit_message": "uploaded KthSmallestElementInBST",
+      "file_path": "DSAprogress/KthSmallestElementInBST.java"
     }
   ]
 }
