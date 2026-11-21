@@ -1,6 +1,6 @@
 {
-  "total_solved": 123,
-  "last_updated": "2026-11-21T22:24:05+05:30",
+  "total_solved": 124,
+  "last_updated": "2026-11-21T23:49:59+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1108,6 +1108,15 @@
       "commit_timestamp": "2026-11-21T22:24:05+05:30",
       "commit_message": "uploaded MergeKSortedLists",
       "file_path": "DSAprogress/MergeKSortedLists.java"
+    },
+    {
+      "class_name": "GraphRepresentationBFS",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "Graph Breadth-First Search Traversal",
+      "date_solved": "2026-11-21",
+      "commit_timestamp": "2026-11-21T23:49:59+05:30",
+      "commit_message": "uploaded GraphRepresentationBFS",
+      "file_path": "DSAprogress/GraphRepresentationBFS.java"
     }
   ]
 }
