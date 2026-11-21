@@ -1,6 +1,6 @@
 {
-  "total_solved": 121,
-  "last_updated": "2026-11-21T21:08:16+05:30",
+  "total_solved": 122,
+  "last_updated": "2026-11-21T21:47:52+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1090,6 +1090,15 @@
       "commit_timestamp": "2026-11-21T21:08:16+05:30",
       "commit_message": "uploaded KthLargestElementInArray",
       "file_path": "DSAprogress/KthLargestElementInArray.java"
+    },
+    {
+      "class_name": "TopKFrequentElements",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "Top K Frequent Elements",
+      "date_solved": "2026-11-21",
+      "commit_timestamp": "2026-11-21T21:47:52+05:30",
+      "commit_message": "uploaded TopKFrequentElements",
+      "file_path": "DSAprogress/TopKFrequentElements.java"
     }
   ]
 }
