@@ -1,6 +1,6 @@
 {
-  "total_solved": 122,
-  "last_updated": "2026-11-21T21:47:52+05:30",
+  "total_solved": 123,
+  "last_updated": "2026-11-21T22:24:05+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1099,6 +1099,15 @@
       "commit_timestamp": "2026-11-21T21:47:52+05:30",
       "commit_message": "uploaded TopKFrequentElements",
       "file_path": "DSAprogress/TopKFrequentElements.java"
+    },
+    {
+      "class_name": "MergeKSortedLists",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "Merge K Sorted Lists",
+      "date_solved": "2026-11-21",
+      "commit_timestamp": "2026-11-21T22:24:05+05:30",
+      "commit_message": "uploaded MergeKSortedLists",
+      "file_path": "DSAprogress/MergeKSortedLists.java"
     }
   ]
 }
