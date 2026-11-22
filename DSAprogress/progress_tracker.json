@@ -1,6 +1,6 @@
 {
-  "total_solved": 124,
-  "last_updated": "2026-11-21T23:49:59+05:30",
+  "total_solved": 125,
+  "last_updated": "2026-11-22T21:11:34+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1117,6 +1117,15 @@
       "commit_timestamp": "2026-11-21T23:49:59+05:30",
       "commit_message": "uploaded GraphRepresentationBFS",
       "file_path": "DSAprogress/GraphRepresentationBFS.java"
+    },
+    {
+      "class_name": "GraphRepresentationDFS",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "Depth First Search Traversal of Graph",
+      "date_solved": "2026-11-22",
+      "commit_timestamp": "2026-11-22T21:11:34+05:30",
+      "commit_message": "uploaded GraphRepresentationDFS",
+      "file_path": "DSAprogress/GraphRepresentationDFS.java"
     }
   ]
 }
