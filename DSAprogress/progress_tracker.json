@@ -1,6 +1,6 @@
 {
-  "total_solved": 126,
-  "last_updated": "2026-11-22T21:46:52+05:30",
+  "total_solved": 127,
+  "last_updated": "2026-11-22T22:42:20+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1135,6 +1135,15 @@
       "commit_timestamp": "2026-11-22T21:46:52+05:30",
       "commit_message": "uploaded NumberOfProvinces",
       "file_path": "DSAprogress/NumberOfProvinces.java"
+    },
+    {
+      "class_name": "RottingOranges",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "Rotting Oranges",
+      "date_solved": "2026-11-22",
+      "commit_timestamp": "2026-11-22T22:42:20+05:30",
+      "commit_message": "uploaded RottingOranges",
+      "file_path": "DSAprogress/RottingOranges.java"
     }
   ]
 }
