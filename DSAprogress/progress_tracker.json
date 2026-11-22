@@ -1,6 +1,6 @@
 {
-  "total_solved": 125,
-  "last_updated": "2026-11-22T21:11:34+05:30",
+  "total_solved": 126,
+  "last_updated": "2026-11-22T21:46:52+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1126,6 +1126,15 @@
       "commit_timestamp": "2026-11-22T21:11:34+05:30",
       "commit_message": "uploaded GraphRepresentationDFS",
       "file_path": "DSAprogress/GraphRepresentationDFS.java"
+    },
+    {
+      "class_name": "NumberOfProvinces",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "Number of Provinces",
+      "date_solved": "2026-11-22",
+      "commit_timestamp": "2026-11-22T21:46:52+05:30",
+      "commit_message": "uploaded NumberOfProvinces",
+      "file_path": "DSAprogress/NumberOfProvinces.java"
     }
   ]
 }
