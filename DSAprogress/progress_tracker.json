@@ -1,6 +1,6 @@
 {
-  "total_solved": 128,
-  "last_updated": "2026-11-22T23:04:16+05:30",
+  "total_solved": 129,
+  "last_updated": "2026-11-23T21:00:34+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1153,6 +1153,15 @@
       "commit_timestamp": "2026-11-22T23:04:16+05:30",
       "commit_message": "uploaded DetectCycleInUndirectedGraph",
       "file_path": "DSAprogress/DetectCycleInUndirectedGraph.java"
+    },
+    {
+      "class_name": "TopologicalSortKahnAlgorithm",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "Topological Sort using Kahn's Algorithm (BFS)",
+      "date_solved": "2026-11-23",
+      "commit_timestamp": "2026-11-23T21:00:34+05:30",
+      "commit_message": "uploaded TopologicalSortKahnAlgorithm",
+      "file_path": "DSAprogress/TopologicalSortKahnAlgorithm.java"
     }
   ]
 }
