@@ -1,6 +1,6 @@
 {
-  "total_solved": 132,
-  "last_updated": "2026-11-23T22:25:00+05:30",
+  "total_solved": 133,
+  "last_updated": "2026-11-23T22:50:17+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1189,6 +1189,15 @@
       "commit_timestamp": "2026-11-23T22:25:00+05:30",
       "commit_message": "uploaded HouseRobber",
       "file_path": "DSAprogress/HouseRobber.java"
+    },
+    {
+      "class_name": "FrogJump",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "Frog Jump - Minimum Energy to Reach End",
+      "date_solved": "2026-11-23",
+      "commit_timestamp": "2026-11-23T22:50:17+05:30",
+      "commit_message": "uploaded FrogJump",
+      "file_path": "DSAprogress/FrogJump.java"
     }
   ]
 }
