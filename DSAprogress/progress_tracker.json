@@ -1,6 +1,6 @@
 {
-  "total_solved": 131,
-  "last_updated": "2026-11-23T22:10:35+05:30",
+  "total_solved": 132,
+  "last_updated": "2026-11-23T22:25:00+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1180,6 +1180,15 @@
       "commit_timestamp": "2026-11-23T22:10:35+05:30",
       "commit_message": "uploaded ClimbingStairs",
       "file_path": "DSAprogress/ClimbingStairs.java"
+    },
+    {
+      "class_name": "HouseRobber",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "House Robber - Maximum Non-Adjacent Sum",
+      "date_solved": "2026-11-23",
+      "commit_timestamp": "2026-11-23T22:25:00+05:30",
+      "commit_message": "uploaded HouseRobber",
+      "file_path": "DSAprogress/HouseRobber.java"
     }
   ]
 }
