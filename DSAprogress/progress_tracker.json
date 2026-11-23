@@ -1,6 +1,6 @@
 {
-  "total_solved": 130,
-  "last_updated": "2026-11-23T21:34:05+05:30",
+  "total_solved": 131,
+  "last_updated": "2026-11-23T22:10:35+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1171,6 +1171,15 @@
       "commit_timestamp": "2026-11-23T21:34:05+05:30",
       "commit_message": "uploaded DijkstraAlgorithm",
       "file_path": "DSAprogress/DijkstraAlgorithm.java"
+    },
+    {
+      "class_name": "ClimbingStairs",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "Climbing Stairs - Count Distinct Ways",
+      "date_solved": "2026-11-23",
+      "commit_timestamp": "2026-11-23T22:10:35+05:30",
+      "commit_message": "uploaded ClimbingStairs",
+      "file_path": "DSAprogress/ClimbingStairs.java"
     }
   ]
 }
