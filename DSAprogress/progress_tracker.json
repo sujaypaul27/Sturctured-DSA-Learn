@@ -1,6 +1,6 @@
 {
-  "total_solved": 133,
-  "last_updated": "2026-11-23T22:50:17+05:30",
+  "total_solved": 134,
+  "last_updated": "2026-11-23T23:52:50+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1198,6 +1198,15 @@
       "commit_timestamp": "2026-11-23T22:50:17+05:30",
       "commit_message": "uploaded FrogJump",
       "file_path": "DSAprogress/FrogJump.java"
+    },
+    {
+      "class_name": "CoinChange",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "Coin Change - Minimum Coins for Amount",
+      "date_solved": "2026-11-23",
+      "commit_timestamp": "2026-11-23T23:52:50+05:30",
+      "commit_message": "uploaded CoinChange",
+      "file_path": "DSAprogress/CoinChange.java"
     }
   ]
 }
