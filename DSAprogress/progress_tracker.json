@@ -1,6 +1,6 @@
 {
-  "total_solved": 137,
-  "last_updated": "2026-11-24T22:44:39+05:30",
+  "total_solved": 138,
+  "last_updated": "2026-11-24T23:29:02+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1234,6 +1234,15 @@
       "commit_timestamp": "2026-11-24T22:44:39+05:30",
       "commit_message": "uploaded ZeroOneKnapsack",
       "file_path": "DSAprogress/ZeroOneKnapsack.java"
+    },
+    {
+      "class_name": "PrimAlgorithm",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "Prim's Minimum Spanning Tree Algorithm",
+      "date_solved": "2026-11-24",
+      "commit_timestamp": "2026-11-24T23:29:02+05:30",
+      "commit_message": "uploaded PrimAlgorithm",
+      "file_path": "DSAprogress/PrimAlgorithm.java"
     }
   ]
 }
