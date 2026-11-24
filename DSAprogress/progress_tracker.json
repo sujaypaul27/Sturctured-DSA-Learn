@@ -1,6 +1,6 @@
 {
-  "total_solved": 134,
-  "last_updated": "2026-11-23T23:52:50+05:30",
+  "total_solved": 135,
+  "last_updated": "2026-11-24T21:10:52+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1207,6 +1207,15 @@
       "commit_timestamp": "2026-11-23T23:52:50+05:30",
       "commit_message": "uploaded CoinChange",
       "file_path": "DSAprogress/CoinChange.java"
+    },
+    {
+      "class_name": "LongestIncreasingSubsequence",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "Longest Increasing Subsequence",
+      "date_solved": "2026-11-24",
+      "commit_timestamp": "2026-11-24T21:10:52+05:30",
+      "commit_message": "uploaded LongestIncreasingSubsequence",
+      "file_path": "DSAprogress/LongestIncreasingSubsequence.java"
     }
   ]
 }
