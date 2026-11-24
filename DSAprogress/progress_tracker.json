@@ -1,6 +1,6 @@
 {
-  "total_solved": 136,
-  "last_updated": "2026-11-24T21:25:38+05:30",
+  "total_solved": 137,
+  "last_updated": "2026-11-24T22:44:39+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1225,6 +1225,15 @@
       "commit_timestamp": "2026-11-24T21:25:38+05:30",
       "commit_message": "uploaded LongestCommonSubsequence",
       "file_path": "DSAprogress/LongestCommonSubsequence.java"
+    },
+    {
+      "class_name": "ZeroOneKnapsack",
+      "topic": "Heaps, Graphs & Dynamic Programming",
+      "problem_title": "0/1 Knapsack Problem",
+      "date_solved": "2026-11-24",
+      "commit_timestamp": "2026-11-24T22:44:39+05:30",
+      "commit_message": "uploaded ZeroOneKnapsack",
+      "file_path": "DSAprogress/ZeroOneKnapsack.java"
     }
   ]
 }
