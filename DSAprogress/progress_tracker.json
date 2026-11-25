@@ -1,6 +1,6 @@
 {
-  "total_solved": 140,
-  "last_updated": "2026-11-25T22:40:23+05:30",
+  "total_solved": 141,
+  "last_updated": "2026-11-25T23:35:53+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1261,6 +1261,15 @@
       "commit_timestamp": "2026-11-25T22:40:23+05:30",
       "commit_message": "uploaded PowerExponentiation",
       "file_path": "DSAprogress/PowerExponentiation.java"
+    },
+    {
+      "class_name": "PrimeFactors",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Prime Factors of a Number",
+      "date_solved": "2026-11-25",
+      "commit_timestamp": "2026-11-25T23:35:53+05:30",
+      "commit_message": "uploaded PrimeFactors",
+      "file_path": "DSAprogress/PrimeFactors.java"
     }
   ]
 }
