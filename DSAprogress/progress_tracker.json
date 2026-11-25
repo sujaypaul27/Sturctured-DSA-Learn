@@ -1,6 +1,6 @@
 {
-  "total_solved": 138,
-  "last_updated": "2026-11-24T23:29:02+05:30",
+  "total_solved": 139,
+  "last_updated": "2026-11-25T20:48:51+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1243,6 +1243,15 @@
       "commit_timestamp": "2026-11-24T23:29:02+05:30",
       "commit_message": "uploaded PrimAlgorithm",
       "file_path": "DSAprogress/PrimAlgorithm.java"
+    },
+    {
+      "class_name": "CheckPrimeNumber",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Check Prime Number",
+      "date_solved": "2026-11-25",
+      "commit_timestamp": "2026-11-25T20:48:51+05:30",
+      "commit_message": "uploaded CheckPrimeNumber",
+      "file_path": "DSAprogress/CheckPrimeNumber.java"
     }
   ]
 }
