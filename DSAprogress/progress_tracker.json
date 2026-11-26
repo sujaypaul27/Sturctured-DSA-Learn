@@ -1,6 +1,6 @@
 {
-  "total_solved": 142,
-  "last_updated": "2026-11-26T20:47:41+05:30",
+  "total_solved": 143,
+  "last_updated": "2026-11-26T21:59:09+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1279,6 +1279,15 @@
       "commit_timestamp": "2026-11-26T20:47:41+05:30",
       "commit_message": "uploaded ReverseInteger",
       "file_path": "DSAprogress/ReverseInteger.java"
+    },
+    {
+      "class_name": "SieveOfEratosthenes",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Sieve of Eratosthenes - Find All Primes up to N",
+      "date_solved": "2026-11-26",
+      "commit_timestamp": "2026-11-26T21:59:09+05:30",
+      "commit_message": "uploaded SieveOfEratosthenes",
+      "file_path": "DSAprogress/SieveOfEratosthenes.java"
     }
   ]
 }
