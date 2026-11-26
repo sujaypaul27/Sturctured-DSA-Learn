@@ -1,6 +1,6 @@
 {
-  "total_solved": 144,
-  "last_updated": "2026-11-26T22:59:51+05:30",
+  "total_solved": 145,
+  "last_updated": "2026-11-26T23:21:41+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1297,6 +1297,15 @@
       "commit_timestamp": "2026-11-26T22:59:51+05:30",
       "commit_message": "uploaded PowerOfNumber",
       "file_path": "DSAprogress/PowerOfNumber.java"
+    },
+    {
+      "class_name": "FindAllDivisors",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Find All Divisors of a Number",
+      "date_solved": "2026-11-26",
+      "commit_timestamp": "2026-11-26T23:21:41+05:30",
+      "commit_message": "uploaded FindAllDivisors",
+      "file_path": "DSAprogress/FindAllDivisors.java"
     }
   ]
 }
