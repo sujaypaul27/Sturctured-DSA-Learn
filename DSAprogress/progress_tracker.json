@@ -1,6 +1,6 @@
 {
-  "total_solved": 143,
-  "last_updated": "2026-11-26T21:59:09+05:30",
+  "total_solved": 144,
+  "last_updated": "2026-11-26T22:59:51+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1288,6 +1288,15 @@
       "commit_timestamp": "2026-11-26T21:59:09+05:30",
       "commit_message": "uploaded SieveOfEratosthenes",
       "file_path": "DSAprogress/SieveOfEratosthenes.java"
+    },
+    {
+      "class_name": "PowerOfNumber",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Pow(x, n) - Fast Exponentiation",
+      "date_solved": "2026-11-26",
+      "commit_timestamp": "2026-11-26T22:59:51+05:30",
+      "commit_message": "uploaded PowerOfNumber",
+      "file_path": "DSAprogress/PowerOfNumber.java"
     }
   ]
 }
