@@ -1,6 +1,6 @@
 {
-  "total_solved": 141,
-  "last_updated": "2026-11-25T23:35:53+05:30",
+  "total_solved": 142,
+  "last_updated": "2026-11-26T20:47:41+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1270,6 +1270,15 @@
       "commit_timestamp": "2026-11-25T23:35:53+05:30",
       "commit_message": "uploaded PrimeFactors",
       "file_path": "DSAprogress/PrimeFactors.java"
+    },
+    {
+      "class_name": "ReverseInteger",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Reverse Integer - Reverse Digits with Overflow Handling",
+      "date_solved": "2026-11-26",
+      "commit_timestamp": "2026-11-26T20:47:41+05:30",
+      "commit_message": "uploaded ReverseInteger",
+      "file_path": "DSAprogress/ReverseInteger.java"
     }
   ]
 }
