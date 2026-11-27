@@ -1,6 +1,6 @@
 {
-  "total_solved": 146,
-  "last_updated": "2026-11-27T20:48:05+05:30",
+  "total_solved": 147,
+  "last_updated": "2026-11-27T21:23:00+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1315,6 +1315,15 @@
       "commit_timestamp": "2026-11-27T20:48:05+05:30",
       "commit_message": "uploaded PowerOfANumber",
       "file_path": "DSAprogress/PowerOfANumber.java"
+    },
+    {
+      "class_name": "SquareRootNumber",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Find Square Root of a Number Using Binary Search",
+      "date_solved": "2026-11-27",
+      "commit_timestamp": "2026-11-27T21:23:00+05:30",
+      "commit_message": "uploaded SquareRootNumber",
+      "file_path": "DSAprogress/SquareRootNumber.java"
     }
   ]
 }
