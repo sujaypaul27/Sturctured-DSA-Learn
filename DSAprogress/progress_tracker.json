@@ -1,6 +1,6 @@
 {
-  "total_solved": 145,
-  "last_updated": "2026-11-26T23:21:41+05:30",
+  "total_solved": 146,
+  "last_updated": "2026-11-27T20:48:05+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1306,6 +1306,15 @@
       "commit_timestamp": "2026-11-26T23:21:41+05:30",
       "commit_message": "uploaded FindAllDivisors",
       "file_path": "DSAprogress/FindAllDivisors.java"
+    },
+    {
+      "class_name": "PowerOfANumber",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Calculate Power of a Number Efficiently",
+      "date_solved": "2026-11-27",
+      "commit_timestamp": "2026-11-27T20:48:05+05:30",
+      "commit_message": "uploaded PowerOfANumber",
+      "file_path": "DSAprogress/PowerOfANumber.java"
     }
   ]
 }
