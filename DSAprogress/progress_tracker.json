@@ -1,6 +1,6 @@
 {
-  "total_solved": 149,
-  "last_updated": "2026-11-27T23:10:09+05:30",
+  "total_solved": 150,
+  "last_updated": "2026-11-27T23:30:52+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1342,6 +1342,15 @@
       "commit_timestamp": "2026-11-27T23:10:09+05:30",
       "commit_message": "uploaded ReverseIntegerDigits",
       "file_path": "DSAprogress/ReverseIntegerDigits.java"
+    },
+    {
+      "class_name": "PerfectNumberCheck",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Check if a Number is a Perfect Number",
+      "date_solved": "2026-11-27",
+      "commit_timestamp": "2026-11-27T23:30:52+05:30",
+      "commit_message": "uploaded PerfectNumberCheck",
+      "file_path": "DSAprogress/PerfectNumberCheck.java"
     }
   ]
 }
