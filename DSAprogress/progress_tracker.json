@@ -1,6 +1,6 @@
 {
   "total_solved": 150,
-  "last_updated": "2026-11-28T21:22:45+05:30",
+  "last_updated": "2026-11-28T22:25:39+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1299,15 +1299,6 @@
       "file_path": "DSAprogress/FindAllDivisors.java"
     },
     {
-      "class_name": "PrintAllPrimes",
-      "topic": "Basic Math & Number Logic",
-      "problem_title": "Print All Prime Numbers Up to N Using Sieve of Eratosthenes",
-      "date_solved": "2026-11-27",
-      "commit_timestamp": "2026-11-27T21:57:02+05:30",
-      "commit_message": "uploaded PrintAllPrimes",
-      "file_path": "DSAprogress/PrintAllPrimes.java"
-    },
-    {
       "class_name": "PrimeFactors",
       "topic": "Basic Math & Number Logic",
       "problem_title": "Find All Prime Factors of a Number",
@@ -1351,6 +1342,15 @@
       "commit_timestamp": "2026-11-28T21:22:45+05:30",
       "commit_message": "uploaded SquareRootNumber",
       "file_path": "DSAprogress/SquareRootNumber.java"
+    },
+    {
+      "class_name": "PrintAllPrimes",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Print All Prime Numbers Up To N",
+      "date_solved": "2026-11-28",
+      "commit_timestamp": "2026-11-28T22:25:39+05:30",
+      "commit_message": "uploaded PrintAllPrimes",
+      "file_path": "DSAprogress/PrintAllPrimes.java"
     }
   ]
 }
