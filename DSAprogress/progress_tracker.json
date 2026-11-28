@@ -1,6 +1,6 @@
 {
   "total_solved": 150,
-  "last_updated": "2026-11-28T20:42:02+05:30",
+  "last_updated": "2026-11-28T21:22:45+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1299,15 +1299,6 @@
       "file_path": "DSAprogress/FindAllDivisors.java"
     },
     {
-      "class_name": "SquareRootNumber",
-      "topic": "Basic Math & Number Logic",
-      "problem_title": "Find Square Root of a Number Using Binary Search",
-      "date_solved": "2026-11-27",
-      "commit_timestamp": "2026-11-27T21:23:00+05:30",
-      "commit_message": "uploaded SquareRootNumber",
-      "file_path": "DSAprogress/SquareRootNumber.java"
-    },
-    {
       "class_name": "PrintAllPrimes",
       "topic": "Basic Math & Number Logic",
       "problem_title": "Print All Prime Numbers Up to N Using Sieve of Eratosthenes",
@@ -1351,6 +1342,15 @@
       "commit_timestamp": "2026-11-28T20:42:02+05:30",
       "commit_message": "uploaded PowerOfANumber",
       "file_path": "DSAprogress/PowerOfANumber.java"
+    },
+    {
+      "class_name": "SquareRootNumber",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Square Root of an Integer",
+      "date_solved": "2026-11-28",
+      "commit_timestamp": "2026-11-28T21:22:45+05:30",
+      "commit_message": "uploaded SquareRootNumber",
+      "file_path": "DSAprogress/SquareRootNumber.java"
     }
   ]
 }
