@@ -1,6 +1,6 @@
 {
-  "total_solved": 150,
-  "last_updated": "2026-11-28T23:11:10+05:30",
+  "total_solved": 151,
+  "last_updated": "2026-11-28T23:41:42+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1351,6 +1351,15 @@
       "commit_timestamp": "2026-11-28T23:11:10+05:30",
       "commit_message": "uploaded PrimeFactors",
       "file_path": "DSAprogress/PrimeFactors.java"
+    },
+    {
+      "class_name": "ReverseIntegerNumber",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Reverse Digits of an Integer",
+      "date_solved": "2026-11-28",
+      "commit_timestamp": "2026-11-28T23:41:42+05:30",
+      "commit_message": "uploaded ReverseIntegerNumber",
+      "file_path": "DSAprogress/ReverseIntegerNumber.java"
     }
   ]
 }
