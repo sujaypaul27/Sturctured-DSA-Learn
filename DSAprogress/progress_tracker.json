@@ -1,6 +1,6 @@
 {
   "total_solved": 150,
-  "last_updated": "2026-11-28T22:25:39+05:30",
+  "last_updated": "2026-11-28T23:11:10+05:30",
   "solved_problems": [
     {
       "class_name": "SumOfNumbers",
@@ -1299,15 +1299,6 @@
       "file_path": "DSAprogress/FindAllDivisors.java"
     },
     {
-      "class_name": "PrimeFactors",
-      "topic": "Basic Math & Number Logic",
-      "problem_title": "Find All Prime Factors of a Number",
-      "date_solved": "2026-11-27",
-      "commit_timestamp": "2026-11-27T22:12:19+05:30",
-      "commit_message": "uploaded PrimeFactors",
-      "file_path": "DSAprogress/PrimeFactors.java"
-    },
-    {
       "class_name": "ReverseIntegerDigits",
       "topic": "Basic Math & Number Logic",
       "problem_title": "Reverse Digits of an Integer with Overflow Handling",
@@ -1351,6 +1342,15 @@
       "commit_timestamp": "2026-11-28T22:25:39+05:30",
       "commit_message": "uploaded PrintAllPrimes",
       "file_path": "DSAprogress/PrintAllPrimes.java"
+    },
+    {
+      "class_name": "PrimeFactors",
+      "topic": "Basic Math & Number Logic",
+      "problem_title": "Prime Factors of a Number",
+      "date_solved": "2026-11-28",
+      "commit_timestamp": "2026-11-28T23:11:10+05:30",
+      "commit_message": "uploaded PrimeFactors",
+      "file_path": "DSAprogress/PrimeFactors.java"
     }
   ]
 }
